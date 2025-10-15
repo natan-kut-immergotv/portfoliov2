@@ -48,30 +48,30 @@
   <rect x="300" y="250" width="600" height="200" rx="20" fill="url(#cardGradient)" stroke="#e5e7eb" stroke-width="1"/>
   
   <!-- Weather Icon -->
-  <circle cx="450" cy="350" r="60" fill="#fbbf24"/>
-  <circle cx="450" cy="340" r="8" fill="#ffffff"/>
-  <circle cx="430" cy="320" r="6" fill="#ffffff"/>
-  <circle cx="470" cy="320" r="6" fill="#ffffff"/>
-  <circle cx="450" cy="300" r="4" fill="#ffffff"/>
+  <circle cx="400" cy="350" r="60" fill="#fbbf24"/>
+  <circle cx="400" cy="340" r="8" fill="#ffffff"/>
+  <circle cx="380" cy="320" r="6" fill="#ffffff"/>
+  <circle cx="420" cy="320" r="6" fill="#ffffff"/>
+  <circle cx="400" cy="300" r="4" fill="#ffffff"/>
   
   <!-- Temperature -->
-  <text x="550" y="320" font-family="system-ui" font-size="48" font-weight="bold" fill="#1f2937">23°C</text>
-  <text x="550" y="350" font-family="system-ui" font-size="18" fill="#6b7280">Madrid, Spain</text>
-  <text x="550" y="380" font-family="system-ui" font-size="16" fill="#6b7280">Clear sky</text>
-  <text x="550" y="405" font-family="system-ui" font-size="14" fill="#9ca3af">Feels like 25°C</text>
+  <text x="500" y="320" font-family="system-ui" font-size="48" font-weight="bold" fill="#1f2937" text-anchor="middle">23°C</text>
+  <text x="500" y="350" font-family="system-ui" font-size="18" fill="#6b7280" text-anchor="middle">Madrid, Spain</text>
+  <text x="500" y="380" font-family="system-ui" font-size="16" fill="#6b7280" text-anchor="middle">Clear sky</text>
+  <text x="500" y="405" font-family="system-ui" font-size="14" fill="#9ca3af" text-anchor="middle">Feels like 25°C</text>
   
   <!-- Weather Stats -->
   <rect x="380" y="480" width="120" height="80" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
-  <text x="420" y="505" font-family="system-ui" font-size="12" fill="#6b7280">Humidity</text>
-  <text x="430" y="530" font-family="system-ui" font-size="20" font-weight="bold" fill="#1f2937">65%</text>
+  <text x="440" y="505" font-family="system-ui" font-size="12" fill="#6b7280" text-anchor="middle">Humidity</text>
+  <text x="440" y="530" font-family="system-ui" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">65%</text>
   
   <rect x="520" y="480" width="120" height="80" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
-  <text x="560" y="505" font-family="system-ui" font-size="12" fill="#6b7280">Wind</text>
-  <text x="570" y="530" font-family="system-ui" font-size="20" font-weight="bold" fill="#1f2937">12 km/h</text>
+  <text x="580" y="505" font-family="system-ui" font-size="12" fill="#6b7280" text-anchor="middle">Wind</text>
+  <text x="580" y="530" font-family="system-ui" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">12 km/h</text>
   
   <rect x="660" y="480" width="120" height="80" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
-  <text x="690" y="505" font-family="system-ui" font-size="12" fill="#6b7280">Pressure</text>
-  <text x="700" y="530" font-family="system-ui" font-size="20" font-weight="bold" fill="#1f2937">1013 hPa</text>
+  <text x="720" y="505" font-family="system-ui" font-size="12" fill="#6b7280" text-anchor="middle">Pressure</text>
+  <text x="720" y="530" font-family="system-ui" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">1013 hPa</text>
   
   <!-- 5-Day Forecast -->
   <text x="60" y="620" font-family="system-ui" font-size="24" font-weight="bold" fill="#1f2937">5-Day Forecast</text>
