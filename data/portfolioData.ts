@@ -55,19 +55,6 @@ export const portfolioData = {
       },
       {
         id: 2,
-        slug: 'task-management-app',
-        title: 'Task Management App',
-        description:
-          'Collaborative task manager with real-time updates, drag-and-drop, and team features. State managed with Zustand.',
-        fullDescription:
-          'A powerful collaborative task management application designed for teams. Features real-time synchronization using Firebase, intuitive drag-and-drop functionality powered by React DnD, and efficient state management with Zustand. The app includes project boards, task assignments, due dates, comments, and file attachments. Perfect for agile teams looking to streamline their workflow.',
-        tags: ['React', 'Zustand', 'Firebase', 'Framer Motion'],
-        image: '/projects/tasks.svg',
-        github: 'https://github.com/example/tasks',
-        demo: 'https://tasks-demo.vercel.app',
-      },
-      {
-        id: 3,
         slug: 'weather-dashboard',
         title: 'Weather Dashboard',
         description:
@@ -80,7 +67,7 @@ export const portfolioData = {
         demo: 'https://weather-lymwdsfkj-natankuts-projects.vercel.app',
       },
       {
-        id: 4,
+        id: 3,
         slug: 'task-manager',
         title: 'TaskFlow - Task Manager',
         description:
@@ -167,19 +154,6 @@ export const portfolioData = {
       },
       {
         id: 2,
-        slug: 'task-management-app',
-        title: 'App de Gestión de Tareas',
-        description:
-          'Gestor de tareas colaborativo con actualizaciones en tiempo real, drag-and-drop y funciones de equipo. Estado manejado con Zustand.',
-        fullDescription:
-          'Una poderosa aplicación colaborativa de gestión de tareas diseñada para equipos. Incluye sincronización en tiempo real usando Firebase, funcionalidad intuitiva de arrastrar y soltar con React DnD, y gestión eficiente del estado con Zustand. La app incluye tableros de proyectos, asignación de tareas, fechas límite, comentarios y adjuntos de archivos. Perfecta para equipos ágiles que buscan optimizar su flujo de trabajo.',
-        tags: ['React', 'Zustand', 'Firebase', 'Framer Motion'],
-        image: '/projects/tasks.svg',
-        github: 'https://github.com/example/tasks',
-        demo: 'https://tasks-demo.vercel.app',
-      },
-      {
-        id: 3,
         slug: 'weather-dashboard',
         title: 'Dashboard de Clima',
         description:
@@ -192,7 +166,7 @@ export const portfolioData = {
         demo: 'https://weather-lymwdsfkj-natankuts-projects.vercel.app',
       },
       {
-        id: 4,
+        id: 3,
         slug: 'task-manager',
         title: 'TaskFlow - Gestor de Tareas',
         description:
