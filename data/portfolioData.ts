@@ -79,6 +79,19 @@ export const portfolioData = {
         github: 'https://github.com/natan-kut-immergotv/weather-app',
         demo: 'https://weather-lymwdsfkj-natankuts-projects.vercel.app',
       },
+      {
+        id: 4,
+        slug: 'task-manager',
+        title: 'TaskFlow - Task Manager',
+        description:
+          'Collaborative task management application with drag & drop, real-time updates, and team collaboration features. Built with Next.js 14 and Zustand.',
+        fullDescription:
+          'A modern collaborative task management application featuring an intuitive Kanban board with drag & drop functionality. Built with Next.js 14, TypeScript, and Zustand for state management. Includes real-time collaboration features, user assignments, task comments, priority levels, due dates, and tags. The app features a beautiful responsive design with dark mode support, smooth animations using Framer Motion, and drag & drop interactions powered by @dnd-kit. Perfect for teams looking to streamline their workflow and boost productivity.',
+        tags: ['Next.js', 'TypeScript', 'Zustand', '@dnd-kit'],
+        image: '/projects/task-manager-dashboard.svg',
+        github: 'https://github.com/natan-kut-immergotv/task-management-app',
+        demo: 'https://task-management-app-natankuts-projects.vercel.app',
+      },
     ],
     contact: {
       title: 'Get In Touch',
@@ -177,6 +190,19 @@ export const portfolioData = {
         image: '/projects/weather-dashboard-light-mode.svg',
         github: 'https://github.com/natan-kut-immergotv/weather-app',
         demo: 'https://weather-lymwdsfkj-natankuts-projects.vercel.app',
+      },
+      {
+        id: 4,
+        slug: 'task-manager',
+        title: 'TaskFlow - Gestor de Tareas',
+        description:
+          'Aplicación colaborativa de gestión de tareas con drag & drop, actualizaciones en tiempo real y características de colaboración en equipo. Construido con Next.js 14 y Zustand.',
+        fullDescription:
+          'Una aplicación moderna colaborativa de gestión de tareas con un tablero Kanban intuitivo y funcionalidad de arrastrar y soltar. Construido con Next.js 14, TypeScript y Zustand para gestión de estado. Incluye características de colaboración en tiempo real, asignación de usuarios, comentarios en tareas, niveles de prioridad, fechas de vencimiento y etiquetas. La app cuenta con un hermoso diseño responsive con soporte para modo oscuro, animaciones suaves usando Framer Motion e interacciones de drag & drop potenciadas por @dnd-kit. Perfecto para equipos que buscan optimizar su flujo de trabajo y aumentar la productividad.',
+        tags: ['Next.js', 'TypeScript', 'Zustand', '@dnd-kit'],
+        image: '/projects/task-manager-dashboard.svg',
+        github: 'https://github.com/natan-kut-immergotv/task-management-app',
+        demo: 'https://task-management-app-natankuts-projects.vercel.app',
       },
     ],
     contact: {

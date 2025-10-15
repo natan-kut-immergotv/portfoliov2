@@ -1,0 +1,121 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0f172a"/>
+  
+  <!-- Header -->
+  <rect width="800" height="80" fill="#1e293b"/>
+  <rect x="0" y="80" width="800" height="1" fill="#334155"/>
+  
+  <!-- Logo and Title -->
+  <circle cx="60" cy="40" r="16" fill="url(#logoGradient)"/>
+  <text x="90" y="50" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="white">TaskFlow</text>
+  
+  <!-- Add Task Button -->
+  <rect x="600" y="25" width="120" height="30" rx="6" fill="#4f46e5"/>
+  <text x="640" y="45" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="white" text-anchor="middle">+ Add Task</text>
+  
+  <!-- Theme Toggle -->
+  <circle cx="750" cy="40" r="14" fill="#334155"/>
+  <circle cx="750" cy="40" r="8" fill="#fbbf24"/>
+  
+  <!-- User Avatar -->
+  <circle cx="720" cy="40" r="16" fill="url(#avatarGradient)"/>
+  
+  <!-- Kanban Board -->
+  <!-- To Do Column -->
+  <rect x="40" y="140" width="220" height="420" rx="8" fill="#1e293b" stroke="#334155"/>
+  <rect x="50" y="150" width="200" height="40" rx="6" fill="#1e40af"/>
+  <circle cx="70" cy="170" r="8" fill="#3b82f6"/>
+  <text x="90" y="175" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="white">To Do</text>
+  <text x="230" y="175" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end">4</text>
+  
+  <!-- Task Cards in To Do -->
+  <rect x="50" y="210" width="200" height="100" rx="6" fill="#334155" stroke="#475569"/>
+  <text x="70" y="230" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="white">Design new landing page</text>
+  <text x="70" y="250" font-family="Inter, sans-serif" font-size="12" fill="#94a3b8">Create a modern and responsive landing...</text>
+  <rect x="70" y="260" width="40" height="16" rx="8" fill="#ef4444"/>
+  <text x="90" y="272" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="white" text-anchor="middle">High</text>
+  <circle cx="180" cy="270" r="8" fill="url(#avatarGradient)"/>
+  <text x="200" y="275" font-family="Inter, sans-serif" font-size="10" fill="#94a3b8">Natan K.</text>
+  <text x="70" y="295" font-family="Inter, sans-serif" font-size="10" fill="#94a3b8">Due: Feb 15</text>
+  
+  <rect x="50" y="320" width="200" height="100" rx="6" fill="#334155" stroke="#475569"/>
+  <text x="70" y="340" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="white">Setup CI/CD pipeline</text>
+  <text x="70" y="360" font-family="Inter, sans-serif" font-size="12" fill="#94a3b8">Configure automated testing and...</text>
+  <rect x="70" y="370" width="40" height="16" rx="8" fill="#ef4444"/>
+  <text x="90" y="382" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="white" text-anchor="middle">High</text>
+  <circle cx="180" cy="380" r="8" fill="url(#avatarGradient)"/>
+  <text x="200" y="385" font-family="Inter, sans-serif" font-size="10" fill="#94a3b8">Natan K.</text>
+  <text x="70" y="405" font-family="Inter, sans-serif" font-size="10" fill="#94a3b8">Due: Feb 25</text>
+  
+  <!-- Dragging Task (highlighted) -->
+  <rect x="50" y="430" width="200" height="100" rx="6" fill="#334155" stroke="#4f46e5" stroke-width="2" opacity="0.7"/>
+  <text x="70" y="450" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="white">User Authentication</text>
+  <text x="70" y="470" font-family="Inter, sans-serif" font-size="12" fill="#94a3b8">Implement login and registration...</text>
+  <rect x="70" y="480" width="40" height="16" rx="8" fill="#f59e0b"/>
+  <text x="90" y="492" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="white" text-anchor="middle">Med</text>
+  <circle cx="180" cy="490" r="8" fill="#fbbf24"/>
+  <text x="200" y="495" font-family="Inter, sans-serif" font-size="10" fill="#94a3b8">Sarah J.</text>
+  <text x="70" y="515" font-family="Inter, sans-serif" font-size="10" fill="#94a3b8">Due: Feb 20</text>
+  
+  <!-- Drag indicator -->
+  <circle cx="250" cy="480" r="3" fill="#4f46e5"/>
+  <circle cx="250" cy="485" r="3" fill="#4f46e5"/>
+  <circle cx="250" cy="490" r="3" fill="#4f46e5"/>
+  
+  <!-- In Progress Column -->
+  <rect x="290" y="140" width="220" height="420" rx="8" fill="#1e293b" stroke="#334155"/>
+  <rect x="300" y="150" width="200" height="40" rx="6" fill="#92400e"/>
+  <circle cx="320" cy="170" r="8" fill="#f59e0b"/>
+  <text x="340" y="175" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="white">In Progress</text>
+  <text x="480" y="175" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end">2</text>
+  
+  <!-- Drop zone indicator -->
+  <rect x="300" y="210" width="200" height="100" rx="6" fill="#334155" stroke="#22c55e" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+  <text x="400" y="260" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#22c55e" text-anchor="middle">Drop here</text>
+  
+  <!-- Task Cards in In Progress -->
+  <rect x="300" y="320" width="200" height="100" rx="6" fill="#334155" stroke="#475569"/>
+  <text x="320" y="340" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="white">Optimize database</text>
+  <text x="320" y="360" font-family="Inter, sans-serif" font-size="12" fill="#94a3b8">Review and optimize slow database...</text>
+  <rect x="320" y="370" width="40" height="16" rx="8" fill="#f59e0b"/>
+  <text x="340" y="382" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="white" text-anchor="middle">Med</text>
+  <circle cx="430" cy="380" r="8" fill="#fbbf24"/>
+  <text x="450" y="385" font-family="Inter, sans-serif" font-size="10" fill="#94a3b8">Sarah J.</text>
+  <text x="320" y="405" font-family="Inter, sans-serif" font-size="10" fill="#94a3b8">Due: Feb 18</text>
+  
+  <!-- Done Column -->
+  <rect x="540" y="140" width="220" height="420" rx="8" fill="#1e293b" stroke="#334155"/>
+  <rect x="550" y="150" width="200" height="40" rx="6" fill="#15803d"/>
+  <circle cx="570" cy="170" r="8" fill="#22c55e"/>
+  <text x="590" y="175" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="white">Done</text>
+  <text x="730" y="175" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end">1</text>
+  
+  <!-- Task Cards in Done -->
+  <rect x="550" y="210" width="200" height="100" rx="6" fill="#334155" stroke="#475569"/>
+  <text x="570" y="230" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="white">Write API docs</text>
+  <text x="570" y="250" font-family="Inter, sans-serif" font-size="12" fill="#94a3b8">Create comprehensive API documentation...</text>
+  <rect x="570" y="260" width="40" height="16" rx="8" fill="#10b981"/>
+  <text x="590" y="272" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="white" text-anchor="middle">Low</text>
+  <circle cx="680" cy="270" r="8" fill="#34d399"/>
+  <text x="700" y="275" font-family="Inter, sans-serif" font-size="10" fill="#94a3b8">Mike C.</text>
+  <text x="570" y="295" font-family="Inter, sans-serif" font-size="10" fill="#94a3b8">Completed</text>
+  
+  <!-- Drag and Drop Arrow -->
+  <path d="M250 480 L350 480" stroke="#4f46e5" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="avatarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4f46e5" />
+    </marker>
+  </defs>
+</svg>
