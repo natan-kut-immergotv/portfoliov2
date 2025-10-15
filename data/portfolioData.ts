@@ -93,7 +93,7 @@ export const portfolioData = {
       },
       social: {
         github: 'https://github.com/natan-kut-immergotv',
-        linkedin: 'https://linkedin.com/in/natankutnowski',
+        linkedin: 'https://www.linkedin.com/in/natan-kutnowski/',
       },
     },
   },
@@ -191,7 +191,7 @@ export const portfolioData = {
       },
       social: {
         github: 'https://github.com/natan-kut-immergotv',
-        linkedin: 'https://linkedin.com/in/natankutnowski',
+        linkedin: 'https://www.linkedin.com/in/natan-kutnowski/',
       },
     },
   },
