@@ -77,7 +77,7 @@ export const portfolioData = {
         tags: ['Next.js', 'TypeScript', 'Recharts', 'OpenWeather API'],
         image: '/projects/weather.svg',
         github: 'https://github.com/natan-kut-immergotv/weather-app',
-        demo: 'https://weather-ggwp1if4j-natankuts-projects.vercel.app',
+        demo: 'https://weather-gt13yvgbp-natankuts-projects.vercel.app',
       },
     ],
     contact: {
@@ -175,7 +175,7 @@ export const portfolioData = {
         tags: ['Next.js', 'TypeScript', 'Recharts', 'OpenWeather API'],
         image: '/projects/weather.svg',
         github: 'https://github.com/natan-kut-immergotv/weather-app',
-        demo: 'https://weather-ggwp1if4j-natankuts-projects.vercel.app',
+        demo: 'https://weather-gt13yvgbp-natankuts-projects.vercel.app',
       },
     ],
     contact: {
