@@ -73,9 +73,9 @@ export const portfolioData = {
         description:
           'Real-time weather visualization with forecasts, geolocation, and multi-language support. Built with Next.js 14 and OpenWeather API.',
         fullDescription:
-          'An interactive weather dashboard that provides real-time weather data, 5-day forecasts, and beautiful visualizations. Powered by the OpenWeather API, it features geolocation support, city search, hourly temperature trends with interactive charts, and multi-language support (EN/ES). The dashboard includes dark mode, responsive design, and displays detailed weather metrics like humidity, wind speed, pressure, and cloudiness.',
+          'An interactive weather dashboard that provides real-time weather data, 5-day forecasts, and beautiful visualizations. Powered by the OpenWeather API, it features geolocation support, city search, hourly temperature trends with interactive charts, and multi-language support (EN/ES). The dashboard includes dark mode, responsive design, and displays detailed weather metrics like humidity, wind speed, pressure, and cloudiness. Built with Next.js 14, TypeScript, Tailwind CSS, and Recharts for data visualization.',
         tags: ['Next.js', 'TypeScript', 'Recharts', 'OpenWeather API'],
-        image: '/projects/weather.svg',
+        image: '/projects/weather-dashboard-light.svg',
         github: 'https://github.com/natan-kut-immergotv/weather-app',
         demo: 'https://weather-lymwdsfkj-natankuts-projects.vercel.app',
       },
@@ -171,9 +171,9 @@ export const portfolioData = {
         description:
           'Visualización de clima en tiempo real con pronósticos, geolocalización y soporte multi-idioma. Construido con Next.js 14 y OpenWeather API.',
         fullDescription:
-          'Un dashboard interactivo de clima que proporciona datos meteorológicos en tiempo real, pronósticos de 5 días y hermosas visualizaciones. Potenciado por OpenWeather API, incluye soporte de geolocalización, búsqueda de ciudades, tendencias de temperatura horaria con gráficos interactivos y soporte multi-idioma (EN/ES). El dashboard incluye modo oscuro, diseño responsive y muestra métricas detalladas como humedad, velocidad del viento, presión y nubosidad.',
+          'Un dashboard interactivo de clima que proporciona datos meteorológicos en tiempo real, pronósticos de 5 días y hermosas visualizaciones. Potenciado por OpenWeather API, incluye soporte de geolocalización, búsqueda de ciudades, tendencias de temperatura horaria con gráficos interactivos y soporte multi-idioma (EN/ES). El dashboard incluye modo oscuro, diseño responsive y muestra métricas detalladas como humedad, velocidad del viento, presión y nubosidad. Construido con Next.js 14, TypeScript, Tailwind CSS y Recharts para visualización de datos.',
         tags: ['Next.js', 'TypeScript', 'Recharts', 'OpenWeather API'],
-        image: '/projects/weather.svg',
+        image: '/projects/weather-dashboard-light.svg',
         github: 'https://github.com/natan-kut-immergotv/weather-app',
         demo: 'https://weather-lymwdsfkj-natankuts-projects.vercel.app',
       },

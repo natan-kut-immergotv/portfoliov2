@@ -1,0 +1,150 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#gradient)" />
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:0.95" />
+    </linearGradient>
+    
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="tempGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <linearGradient id="feelsGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ef4444;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="rgba(30,41,59,0.5)" stroke="#334155" stroke-width="1"/>
+  
+  <!-- Header Title -->
+  <text x="60" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="bold" fill="#ffffff">
+    <tspan fill="url(#blueGradient)">Weather</tspan> Dashboard
+  </text>
+  
+  <!-- Temperature Chart Card -->
+  <rect x="100" y="120" width="1000" height="400" rx="20" fill="url(#cardGradient)" stroke="#334155" stroke-width="1"/>
+  
+  <!-- Chart Title -->
+  <text x="140" y="160" font-family="system-ui" font-size="24" font-weight="bold" fill="#ffffff">Temperature Trend (24h)</text>
+  
+  <!-- Chart Legend -->
+  <rect x="140" y="180" width="12" height="12" fill="url(#tempGradient)"/>
+  <text x="160" y="192" font-family="system-ui" font-size="14" fill="#94a3b8">Temperature</text>
+  
+  <rect x="280" y="180" width="12" height="12" fill="url(#feelsGradient)"/>
+  <text x="300" y="192" font-family="system-ui" font-size="14" fill="#94a3b8">Feels Like</text>
+  
+  <!-- Chart Area -->
+  <rect x="140" y="220" width="920" height="250" fill="#0f172a" stroke="#334155" rx="8"/>
+  
+  <!-- Chart Grid Lines -->
+  <line x1="140" y1="270" x2="1060" y2="270" stroke="#334155" stroke-width="1"/>
+  <line x1="140" y1="320" x2="1060" y2="320" stroke="#334155" stroke-width="1"/>
+  <line x1="140" y1="370" x2="1060" y2="370" stroke="#334155" stroke-width="1"/>
+  <line x1="140" y1="420" x2="1060" y2="420" stroke="#334155" stroke-width="1"/>
+  
+  <!-- Y-Axis Labels -->
+  <text x="120" y="275" font-family="system-ui" font-size="12" fill="#64748b">30°C</text>
+  <text x="120" y="325" font-family="system-ui" font-size="12" fill="#64748b">25°C</text>
+  <text x="120" y="375" font-family="system-ui" font-size="12" fill="#64748b">20°C</text>
+  <text x="120" y="425" font-family="system-ui" font-size="12" fill="#64748b">15°C</text>
+  <text x="120" y="475" font-family="system-ui" font-size="12" fill="#64748b">10°C</text>
+  
+  <!-- X-Axis Labels -->
+  <text x="160" y="490" font-family="system-ui" font-size="12" fill="#64748b">00:00</text>
+  <text x="280" y="490" font-family="system-ui" font-size="12" fill="#64748b">04:00</text>
+  <text x="400" y="490" font-family="system-ui" font-size="12" fill="#64748b">08:00</text>
+  <text x="520" y="490" font-family="system-ui" font-size="12" fill="#64748b">12:00</text>
+  <text x="640" y="490" font-family="system-ui" font-size="12" fill="#64748b">16:00</text>
+  <text x="760" y="490" font-family="system-ui" font-size="12" fill="#64748b">20:00</text>
+  <text x="880" y="490" font-family="system-ui" font-size="12" fill="#64748b">24:00</text>
+  
+  <!-- Temperature Line -->
+  <path d="M 160 250 Q 200 280 240 300 Q 280 320 320 340 Q 360 360 400 380 Q 440 400 480 420 Q 520 440 560 460 Q 600 480 640 470 Q 680 460 720 450 Q 760 440 800 430 Q 840 420 880 410 Q 920 400 960 390" 
+        fill="none" stroke="url(#tempGradient)" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Feels Like Line -->
+  <path d="M 160 260 Q 200 290 240 310 Q 280 330 320 350 Q 360 370 400 390 Q 440 410 480 430 Q 520 450 560 470 Q 600 490 640 480 Q 680 470 720 460 Q 760 450 800 440 Q 840 430 880 420 Q 920 410 960 400" 
+        fill="none" stroke="url(#feelsGradient)" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Data Points -->
+  <circle cx="160" cy="250" r="4" fill="#3b82f6"/>
+  <circle cx="320" cy="340" r="4" fill="#3b82f6"/>
+  <circle cx="480" cy="420" r="4" fill="#3b82f6"/>
+  <circle cx="640" cy="470" r="4" fill="#3b82f6"/>
+  <circle cx="800" cy="430" r="4" fill="#3b82f6"/>
+  <circle cx="960" cy="390" r="4" fill="#3b82f6"/>
+  
+  <!-- Feels Like Points -->
+  <circle cx="160" cy="260" r="4" fill="#f59e0b"/>
+  <circle cx="320" cy="350" r="4" fill="#f59e0b"/>
+  <circle cx="480" cy="430" r="4" fill="#f59e0b"/>
+  <circle cx="640" cy="480" r="4" fill="#f59e0b"/>
+  <circle cx="800" cy="440" r="4" fill="#f59e0b"/>
+  <circle cx="960" cy="400" r="4" fill="#f59e0b"/>
+  
+  <!-- 5-Day Forecast -->
+  <text x="60" y="580" font-family="system-ui" font-size="24" font-weight="bold" fill="#ffffff">5-Day Forecast</text>
+  
+  <!-- Forecast Cards -->
+  <rect x="60" y="600" width="180" height="140" rx="12" fill="url(#cardGradient)" stroke="#334155"/>
+  <text x="130" y="625" font-family="system-ui" font-size="14" font-weight="bold" fill="#ffffff">Today</text>
+  <circle cx="120" cy="650" r="20" fill="#fbbf24"/>
+  <text x="100" y="685" font-family="system-ui" font-size="16" font-weight="bold" fill="#ffffff">23°</text>
+  <text x="140" y="685" font-family="system-ui" font-size="14" fill="#94a3b8">18°</text>
+  <text x="110" y="705" font-family="system-ui" font-size="12" fill="#94a3b8">Clear sky</text>
+  <text x="100" y="720" font-family="system-ui" font-size="10" fill="#64748b">Humidity: 65%</text>
+  
+  <rect x="260" y="600" width="180" height="140" rx="12" fill="url(#cardGradient)" stroke="#334155"/>
+  <text x="330" y="625" font-family="system-ui" font-size="14" font-weight="bold" fill="#ffffff">Tomorrow</text>
+  <circle cx="320" cy="650" r="20" fill="#60a5fa"/>
+  <text x="300" y="685" font-family="system-ui" font-size="16" font-weight="bold" fill="#ffffff">21°</text>
+  <text x="340" y="685" font-family="system-ui" font-size="14" fill="#94a3b8">16°</text>
+  <text x="310" y="705" font-family="system-ui" font-size="12" fill="#94a3b8">Partly cloudy</text>
+  <text x="300" y="720" font-family="system-ui" font-size="10" fill="#64748b">Humidity: 70%</text>
+  
+  <rect x="460" y="600" width="180" height="140" rx="12" fill="url(#cardGradient)" stroke="#334155"/>
+  <text x="530" y="625" font-family="system-ui" font-size="14" font-weight="bold" fill="#ffffff">Wednesday</text>
+  <circle cx="520" cy="650" r="20" fill="#fbbf24"/>
+  <text x="500" y="685" font-family="system-ui" font-size="16" font-weight="bold" fill="#ffffff">25°</text>
+  <text x="540" y="685" font-family="system-ui" font-size="14" fill="#94a3b8">19°</text>
+  <text x="510" y="705" font-family="system-ui" font-size="12" fill="#94a3b8">Sunny</text>
+  <text x="500" y="720" font-family="system-ui" font-size="10" fill="#64748b">Humidity: 60%</text>
+  
+  <rect x="660" y="600" width="180" height="140" rx="12" fill="url(#cardGradient)" stroke="#334155"/>
+  <text x="730" y="625" font-family="system-ui" font-size="14" font-weight="bold" fill="#ffffff">Thursday</text>
+  <circle cx="720" cy="650" r="20" fill="#34d399"/>
+  <text x="700" y="685" font-family="system-ui" font-size="16" font-weight="bold" fill="#ffffff">27°</text>
+  <text x="740" y="685" font-family="system-ui" font-size="14" fill="#94a3b8">21°</text>
+  <text x="710" y="705" font-family="system-ui" font-size="12" fill="#94a3b8">Clear sky</text>
+  <text x="700" y="720" font-family="system-ui" font-size="10" fill="#64748b">Humidity: 55%</text>
+  
+  <rect x="860" y="600" width="180" height="140" rx="12" fill="url(#cardGradient)" stroke="#334155"/>
+  <text x="930" y="625" font-family="system-ui" font-size="14" font-weight="bold" fill="#ffffff">Friday</text>
+  <circle cx="920" cy="650" r="20" fill="#fbbf24"/>
+  <text x="900" y="685" font-family="system-ui" font-size="16" font-weight="bold" fill="#ffffff">24°</text>
+  <text x="940" y="685" font-family="system-ui" font-size="14" fill="#94a3b8">18°</text>
+  <text x="910" y="705" font-family="system-ui" font-size="12" fill="#94a3b8">Partly cloudy</text>
+  <text x="900" y="720" font-family="system-ui" font-size="10" fill="#64748b">Humidity: 68%</text>
+  
+  <!-- Footer -->
+  <text x="500" y="780" font-family="system-ui" font-size="12" fill="#64748b">Interactive charts powered by Recharts • OpenWeather API</text>
+</svg>

@@ -1,0 +1,127 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#gradient)" />
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dbeafe;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f3e8ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:0.95" />
+    </linearGradient>
+    
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="rgba(255,255,255,0.5)" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Header Title -->
+  <text x="60" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="bold" fill="#1f2937">
+    <tspan fill="url(#blueGradient)">Weather</tspan> Dashboard
+  </text>
+  
+  <!-- Language Switcher -->
+  <rect x="900" y="25" width="120" height="30" rx="15" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="920" y="30" width="60" height="20" rx="10" fill="#e5e7eb"/>
+  <text x="935" y="43" font-family="system-ui" font-size="12" fill="#6b7280">ES</text>
+  <rect x="950" y="30" width="60" height="20" rx="10" fill="#3b82f6"/>
+  <text x="970" y="43" font-family="system-ui" font-size="12" fill="#ffffff">EN</text>
+  
+  <!-- Theme Switcher -->
+  <rect x="1040" y="25" width="40" height="30" rx="8" fill="#f3f4f6"/>
+  <circle cx="1060" cy="40" r="8" fill="#f59e0b"/>
+  
+  <!-- Main Weather Card -->
+  <rect x="300" y="140" width="600" height="300" rx="20" fill="url(#cardGradient)" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Weather Icon -->
+  <circle cx="450" cy="250" r="60" fill="#fbbf24"/>
+  <circle cx="450" cy="240" r="8" fill="#ffffff"/>
+  <circle cx="430" cy="220" r="6" fill="#ffffff"/>
+  <circle cx="470" cy="220" r="6" fill="#ffffff"/>
+  <circle cx="450" cy="200" r="4" fill="#ffffff"/>
+  
+  <!-- Temperature -->
+  <text x="550" y="220" font-family="system-ui" font-size="48" font-weight="bold" fill="#1f2937">23°C</text>
+  <text x="550" y="250" font-family="system-ui" font-size="18" fill="#6b7280">Madrid, Spain</text>
+  <text x="550" y="280" font-family="system-ui" font-size="16" fill="#6b7280">Clear sky</text>
+  <text x="550" y="305" font-family="system-ui" font-size="14" fill="#9ca3af">Feels like 25°C</text>
+  
+  <!-- Weather Stats -->
+  <rect x="380" y="320" width="120" height="80" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="420" y="345" font-family="system-ui" font-size="12" fill="#6b7280">Humidity</text>
+  <text x="430" y="370" font-family="system-ui" font-size="20" font-weight="bold" fill="#1f2937">65%</text>
+  
+  <rect x="520" y="320" width="120" height="80" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="560" y="345" font-family="system-ui" font-size="12" fill="#6b7280">Wind</text>
+  <text x="570" y="370" font-family="system-ui" font-size="20" font-weight="bold" fill="#1f2937">12 km/h</text>
+  
+  <rect x="660" y="320" width="120" height="80" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="690" y="345" font-family="system-ui" font-size="12" fill="#6b7280">Pressure</text>
+  <text x="700" y="370" font-family="system-ui" font-size="20" font-weight="bold" fill="#1f2937">1013 hPa</text>
+  
+  <!-- Search Bar -->
+  <rect x="300" y="480" width="400" height="60" rx="30" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="330" y="515" font-family="system-ui" font-size="16" fill="#9ca3af">Search for a city...</text>
+  <rect x="600" y="490" width="80" height="40" rx="20" fill="#3b82f6"/>
+  <text x="630" y="515" font-family="system-ui" font-size="14" fill="#ffffff">Search</text>
+  
+  <!-- Location Button -->
+  <rect x="720" y="480" width="120" height="60" rx="30" fill="#10b981"/>
+  <circle cx="740" cy="510" r="8" fill="#ffffff"/>
+  <circle cx="740" cy="510" r="4" fill="#10b981"/>
+  <text x="770" y="515" font-family="system-ui" font-size="14" fill="#ffffff">Use Location</text>
+  
+  <!-- Language Comparison -->
+  <rect x="100" y="580" width="480" height="160" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="120" y="605" font-family="system-ui" font-size="16" font-weight="bold" fill="#1f2937">Multi-Language Support</text>
+  
+  <!-- English -->
+  <rect x="120" y="620" width="40" height="20" rx="10" fill="#3b82f6"/>
+  <text x="130" y="633" font-family="system-ui" font-size="12" fill="#ffffff">EN</text>
+  <text x="180" y="633" font-family="system-ui" font-size="14" fill="#374151">Search for a city...</text>
+  <text x="180" y="650" font-family="system-ui" font-size="14" fill="#374151">Use my location</text>
+  <text x="180" y="667" font-family="system-ui" font-size="14" fill="#374151">5-Day Forecast</text>
+  <text x="180" y="684" font-family="system-ui" font-size="14" fill="#374151">Temperature Trend</text>
+  
+  <!-- Spanish -->
+  <rect x="120" y="705" width="40" height="20" rx="10" fill="#e5e7eb"/>
+  <text x="130" y="718" font-family="system-ui" font-size="12" fill="#6b7280">ES</text>
+  <text x="180" y="718" font-family="system-ui" font-size="14" fill="#374151">Buscar una ciudad...</text>
+  <text x="180" y="735" font-family="system-ui" font-size="14" fill="#374151">Usar mi ubicación</text>
+  
+  <!-- Features List -->
+  <rect x="620" y="580" width="480" height="160" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="640" y="605" font-family="system-ui" font-size="16" font-weight="bold" fill="#1f2937">Key Features</text>
+  
+  <!-- Feature Items -->
+  <circle cx="660" cy="625" r="4" fill="#10b981"/>
+  <text x="680" y="631" font-family="system-ui" font-size="14" fill="#374151">Real-time weather data</text>
+  
+  <circle cx="660" cy="645" r="4" fill="#10b981"/>
+  <text x="680" y="651" font-family="system-ui" font-size="14" fill="#374151">Interactive temperature charts</text>
+  
+  <circle cx="660" cy="665" r="4" fill="#10b981"/>
+  <text x="680" y="671" font-family="system-ui" font-size="14" fill="#374151">5-day detailed forecast</text>
+  
+  <circle cx="660" cy="685" r="4" fill="#10b981"/>
+  <text x="680" y="691" font-family="system-ui" font-size="14" fill="#374151">Geolocation support</text>
+  
+  <circle cx="660" cy="705" r="4" fill="#10b981"/>
+  <text x="680" y="711" font-family="system-ui" font-size="14" fill="#374151">Dark/Light mode toggle</text>
+  
+  <circle cx="660" cy="725" r="4" fill="#10b981"/>
+  <text x="680" y="731" font-family="system-ui" font-size="14" fill="#374151">Spanish & English support</text>
+  
+  <!-- Footer -->
+  <text x="500" y="780" font-family="system-ui" font-size="12" fill="#9ca3af">Built with Next.js 14 • i18next • OpenWeather API</text>
+</svg>
