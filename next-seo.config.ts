@@ -7,7 +7,7 @@ const SEO: DefaultSeoProps = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://example.com',
+    url: 'https://portfolio-front-iota-dun.vercel.app',
     siteName: 'Portfolio',
   },
   twitter: {

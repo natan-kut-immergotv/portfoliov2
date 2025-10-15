@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { portfolioData } from '../data/portfolioData'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://natankutnowski.com'
+  const baseUrl = 'https://portfolio-front-iota-dun.vercel.app'
   const currentDate = new Date()
 
   // Get all project slugs (same for both languages)

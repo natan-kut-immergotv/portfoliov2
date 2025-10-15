@@ -2,7 +2,7 @@ import { portfolioData } from '../data/portfolioData'
 
 type Language = 'en' | 'es'
 
-const siteUrl = 'https://natankutnowski.com'
+const siteUrl = 'https://portfolio-front-iota-dun.vercel.app'
 
 interface MetadataImage {
   url: string

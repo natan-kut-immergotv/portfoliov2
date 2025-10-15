@@ -10,5 +10,5 @@ Disallow: /_next/
 Disallow: /private/
 
 # Sitemap
-Sitemap: https://natankutnowski.com/sitemap.xml
+Sitemap: https://portfolio-front-iota-dun.vercel.app/sitemap.xml
 
