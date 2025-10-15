@@ -94,6 +94,7 @@ export const portfolioData = {
       social: {
         github: 'https://github.com/natan-kut-immergotv',
         linkedin: 'https://www.linkedin.com/in/natan-kutnowski/',
+        email: 'nkutnowski87@gmail.com',
       },
     },
   },
@@ -192,6 +193,7 @@ export const portfolioData = {
       social: {
         github: 'https://github.com/natan-kut-immergotv',
         linkedin: 'https://www.linkedin.com/in/natan-kutnowski/',
+        email: 'nkutnowski87@gmail.com',
       },
     },
   },

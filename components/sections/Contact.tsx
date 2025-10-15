@@ -228,7 +228,7 @@ export default function Contact() {
                 </motion.a>
 
                 <motion.a
-                  href="mailto:contact@example.com"
+                  href={`mailto:${data.social.email}`}
                   className="flex items-center gap-4 rounded-lg border-2 border-neutral-300 p-4 transition-all duration-300 hover:border-indigo-600 hover:bg-indigo-50 dark:border-neutral-600 dark:hover:border-indigo-400 dark:hover:bg-neutral-800"
                   whileHover={{ x: 8 }}
                 >
