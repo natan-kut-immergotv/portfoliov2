@@ -31,9 +31,9 @@ export default function Hero() {
     >
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        {/* Gradient Orbs */}
+        {/* Gradient Orbs - Más visibles en dark mode */}
         <motion.div
-          className="absolute -left-20 top-20 h-96 w-96 rounded-full bg-indigo-200/30 blur-3xl dark:bg-indigo-500/10"
+          className="absolute -left-20 top-20 h-96 w-96 rounded-full bg-indigo-300/40 blur-3xl dark:bg-indigo-500/20"
           animate={{
             x: [0, 50, 0],
             y: [0, 30, 0],
@@ -46,7 +46,7 @@ export default function Hero() {
           }}
         />
         <motion.div
-          className="absolute -right-20 top-40 h-96 w-96 rounded-full bg-purple-200/30 blur-3xl dark:bg-purple-500/10"
+          className="absolute -right-20 top-40 h-96 w-96 rounded-full bg-purple-300/40 blur-3xl dark:bg-purple-500/25"
           animate={{
             x: [0, -50, 0],
             y: [0, 50, 0],
@@ -60,10 +60,10 @@ export default function Hero() {
           }}
         />
         <motion.div
-          className="absolute bottom-20 left-1/2 h-80 w-80 -translate-x-1/2 rounded-full bg-cyan-200/20 blur-3xl dark:bg-cyan-500/10"
+          className="absolute bottom-20 left-1/2 h-80 w-80 -translate-x-1/2 rounded-full bg-cyan-300/30 blur-3xl dark:bg-cyan-400/20"
           animate={{
             scale: [1, 1.15, 1],
-            opacity: [0.3, 0.5, 0.3],
+            opacity: [0.4, 0.6, 0.4],
           }}
           transition={{
             duration: 18,
@@ -73,18 +73,34 @@ export default function Hero() {
           }}
         />
 
-        {/* Floating Particles */}
-        {[...Array(20)].map((_, i) => (
+        {/* Additional glow for dark mode */}
+        <motion.div
+          className="absolute right-1/4 top-1/3 h-72 w-72 rounded-full bg-pink-400/0 blur-3xl dark:bg-pink-500/15"
+          animate={{
+            scale: [1, 1.3, 1],
+            opacity: [0, 0.5, 0],
+          }}
+          transition={{
+            duration: 22,
+            repeat: Infinity,
+            ease: 'easeInOut',
+            delay: 3,
+          }}
+        />
+
+        {/* Floating Particles - Más visibles */}
+        {[...Array(25)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute h-1 w-1 rounded-full bg-indigo-400/40 dark:bg-indigo-400/20"
+            className="absolute h-1.5 w-1.5 rounded-full bg-indigo-400/50 dark:bg-indigo-300/40"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
             }}
             animate={{
-              y: [0, -30, 0],
-              opacity: [0, 1, 0],
+              y: [0, -40, 0],
+              opacity: [0, 0.8, 0],
+              scale: [0.5, 1, 0.5],
             }}
             transition={{
               duration: 3 + Math.random() * 4,
@@ -95,8 +111,21 @@ export default function Hero() {
           />
         ))}
 
-        {/* Grid Pattern */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]" />
+        {/* Grid Pattern - Más visible en dark */}
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] dark:bg-[linear-gradient(to_right,#ffffff08_1px,transparent_1px),linear-gradient(to_bottom,#ffffff08_1px,transparent_1px)]" />
+
+        {/* Subtle shimmer effect */}
+        <motion.div
+          className="absolute inset-0 bg-gradient-to-r from-transparent via-indigo-200/10 to-transparent dark:via-indigo-400/10"
+          animate={{
+            x: ['-100%', '100%'],
+          }}
+          transition={{
+            duration: 15,
+            repeat: Infinity,
+            ease: 'linear',
+          }}
+        />
       </div>
 
       <div className="relative z-10 mx-auto max-w-4xl text-center">
