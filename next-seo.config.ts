@@ -8,12 +8,11 @@ const SEO: DefaultSeoProps = {
     type: 'website',
     locale: 'en_US',
     url: 'https://example.com',
-    siteName: 'Portfolio'
+    siteName: 'Portfolio',
   },
   twitter: {
-    cardType: 'summary_large_image'
-  }
+    cardType: 'summary_large_image',
+  },
 }
 
 export default SEO
-

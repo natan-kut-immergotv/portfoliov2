@@ -8,7 +8,7 @@ import useLanguageStore from '../../store/useLanguageStore'
 const categoryIcons = {
   0: Code2,
   1: Database,
-  2: Wrench
+  2: Wrench,
 }
 
 const containerVariants = {
@@ -16,9 +16,9 @@ const containerVariants = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.15
-    }
-  }
+      staggerChildren: 0.15,
+    },
+  },
 }
 
 const itemVariants = {
@@ -28,9 +28,9 @@ const itemVariants = {
     y: 0,
     transition: {
       duration: 0.5,
-      ease: 'easeOut'
-    }
-  }
+      ease: 'easeOut',
+    },
+  },
 }
 
 export default function Skills() {
@@ -85,7 +85,8 @@ export default function Skills() {
             viewport={{ once: true, margin: '-50px' }}
           >
             {data.categories.map((category, categoryIndex) => {
-              const Icon = categoryIcons[categoryIndex as keyof typeof categoryIcons]
+              const Icon =
+                categoryIcons[categoryIndex as keyof typeof categoryIcons]
               return (
                 <motion.div
                   key={category.name}
@@ -144,4 +145,3 @@ export default function Skills() {
     </section>
   )
 }
-

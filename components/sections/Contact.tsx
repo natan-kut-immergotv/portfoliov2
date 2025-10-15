@@ -14,13 +14,13 @@ export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: ''
+    message: '',
   })
 
   const [errors, setErrors] = useState({
     name: false,
     email: false,
-    message: false
+    message: false,
   })
 
   const [status, setStatus] = useState<'idle' | 'success' | 'error'>('idle')
@@ -35,7 +35,7 @@ export default function Contact() {
     const newErrors = {
       name: formData.name.trim() === '',
       email: !validateEmail(formData.email),
-      message: formData.message.trim() === ''
+      message: formData.message.trim() === '',
     }
 
     setErrors(newErrors)
@@ -245,4 +245,3 @@ export default function Contact() {
     </section>
   )
 }
-

@@ -26,16 +26,16 @@ Portfolio personal moderno y performante construido con Next.js 14, TypeScript, 
 
 ## 📦 Tecnologías Principales
 
-| Tecnología | Versión | Uso |
-|------------|---------|-----|
-| Next.js | 14.2.5 | Framework React con SSR/SSG |
-| TypeScript | 5.6.2 | Type-safety y mejor DX |
-| Tailwind CSS | 3.4.14 | Utility-first CSS |
-| Framer Motion | 11.3.29 | Animaciones declarativas |
-| Zustand | 4.5.2 | State management |
-| i18next | 23.11.5 | Internacionalización |
-| next-seo | 6.5.0 | SEO y meta tags |
-| Lucide React | 0.441.0 | Iconos |
+| Tecnología    | Versión | Uso                         |
+| ------------- | ------- | --------------------------- |
+| Next.js       | 14.2.5  | Framework React con SSR/SSG |
+| TypeScript    | 5.6.2   | Type-safety y mejor DX      |
+| Tailwind CSS  | 3.4.14  | Utility-first CSS           |
+| Framer Motion | 11.3.29 | Animaciones declarativas    |
+| Zustand       | 4.5.2   | State management            |
+| i18next       | 23.11.5 | Internacionalización        |
+| next-seo      | 6.5.0   | SEO y meta tags             |
+| Lucide React  | 0.441.0 | Iconos                      |
 
 ## 🗂️ Estructura del Proyecto
 
@@ -178,13 +178,13 @@ export const portfolioData = {
         tags: ['React', 'Next.js'],
         image: '/projects/mi-proyecto.png',
         github: 'https://github.com/...',
-        demo: 'https://...'
-      }
-    ]
+        demo: 'https://...',
+      },
+    ],
   },
   es: {
     // Misma estructura en español
-  }
+  },
 }
 ```
 
@@ -248,10 +248,13 @@ supportedLngs: ['en', 'es', 'fr']
 import NuevaSeccion from '../components/sections/NuevaSeccion'
 
 // Agregar con lazy loading
-const NuevaSeccion = dynamic(() => import('../components/sections/NuevaSeccion'), {
-  loading: () => <div className="min-h-screen" />,
-  ssr: true
-})
+const NuevaSeccion = dynamic(
+  () => import('../components/sections/NuevaSeccion'),
+  {
+    loading: () => <div className="min-h-screen" />,
+    ssr: true,
+  }
+)
 ```
 
 3. Añadir traducciones en `/public/locales/*/common.json`
@@ -266,7 +269,7 @@ import { useTranslation } from 'react-i18next'
 
 export default function MiComponente() {
   const { t } = useTranslation('common')
-  
+
   return <h1>{t('seccion.titulo')}</h1>
 }
 ```
@@ -348,7 +351,7 @@ import dynamic from 'next/dynamic'
 
 const About = dynamic(() => import('../components/sections/About'), {
   loading: () => <div className="min-h-screen" />,
-  ssr: true
+  ssr: true,
 })
 ```
 
@@ -358,8 +361,7 @@ Usar Next.js `<Image />` siempre:
 
 ```tsx
 import Image from 'next/image'
-
-<Image
+;<Image
   src="/projects/imagen.png"
   alt="Descripción"
   fill
@@ -429,6 +431,7 @@ npm run lint -- --fix
 ```
 
 Configuración en `.eslintrc.cjs`:
+
 - Reglas de Next.js
 - TypeScript rules
 - React hooks exhaustive-deps
@@ -445,6 +448,7 @@ npx prettier --check .
 ```
 
 Configuración en `.prettierrc`:
+
 ```json
 {
   "singleQuote": true,
@@ -461,8 +465,8 @@ Configuración en `.prettierrc`:
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   experimental: {
-    typedRoutes: true
-  }
+    typedRoutes: true,
+  },
 }
 ```
 
@@ -471,7 +475,7 @@ const nextConfig: NextConfig = {
 ```typescript
 const config: Config = {
   darkMode: 'class',
-  content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}']
+  content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
 }
 ```
 
@@ -553,4 +557,3 @@ Este proyecto está bajo la Licencia MIT. Ver archivo `LICENSE` para más detall
 ---
 
 ⭐ Si este proyecto te fue útil, considera darle una estrella en GitHub!
-

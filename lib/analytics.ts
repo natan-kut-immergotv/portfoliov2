@@ -1,7 +1,8 @@
 'use client'
 
 // Google Analytics 4 Configuration
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-XXXXXXXXXX'
+const GA_MEASUREMENT_ID =
+  process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-XXXXXXXXXX'
 
 declare global {
   interface Window {
@@ -27,10 +28,10 @@ export const initGA = () => {
   }
 
   // Initialize GA4
-  window.gtag('js', new Date())
+  window.gtag('js', new Date() as unknown as string)
   window.gtag('config', GA_MEASUREMENT_ID, {
     page_path: window.location.pathname,
-    send_page_view: true
+    send_page_view: true,
   })
 }
 
@@ -39,7 +40,7 @@ export const trackPageView = (url: string) => {
   if (typeof window === 'undefined' || !window.gtag) return
 
   window.gtag('config', GA_MEASUREMENT_ID, {
-    page_path: url
+    page_path: url,
   })
 }
 
@@ -55,7 +56,7 @@ export const trackEvent = (
   window.gtag('event', action, {
     event_category: category,
     event_label: label,
-    value: value
+    value: value,
   })
 }
 
@@ -109,7 +110,7 @@ export const analytics = {
   // Performance metrics
   trackPerformance: (metric: string, value: number) => {
     trackEvent('Performance', metric, undefined, Math.round(value))
-  }
+  },
 }
 
 // Web Vitals tracking
@@ -122,9 +123,10 @@ export const reportWebVitals = (metric: {
 
   window.gtag('event', metric.name, {
     event_category: 'Web Vitals',
-    value: Math.round(metric.name === 'CLS' ? metric.value * 1000 : metric.value),
+    value: Math.round(
+      metric.name === 'CLS' ? metric.value * 1000 : metric.value
+    ),
     event_label: metric.id,
-    non_interaction: true
+    non_interaction: true,
   })
 }
-

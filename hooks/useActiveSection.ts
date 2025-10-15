@@ -9,11 +9,11 @@ export function useActiveSection() {
 
   useEffect(() => {
     const sections = document.querySelectorAll('section[id]')
-    
+
     const observerOptions = {
       root: null,
       rootMargin: '-50% 0px -50% 0px',
-      threshold: 0
+      threshold: 0,
     }
 
     const observerCallback = (entries: IntersectionObserverEntry[]) => {
@@ -39,4 +39,3 @@ export function useActiveSection() {
 
   return activeSection
 }
-

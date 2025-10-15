@@ -28,6 +28,7 @@ git push -u origin main
 ### Paso 2: Deploy en Vercel
 
 **Opción A - Desde Web (Más fácil):**
+
 1. Ve a https://vercel.com/signup
 2. Sign up con GitHub
 3. Click "Add New Project"
@@ -36,6 +37,7 @@ git push -u origin main
 6. ¡Listo! URL: `https://portfoliov2-xxx.vercel.app`
 
 **Opción B - Desde CLI (Más rápido):**
+
 ```bash
 # Instalar Vercel CLI
 npm i -g vercel
@@ -62,6 +64,7 @@ vercel --prod
 ### Paso 3: Configurar Variables (Opcional)
 
 En Vercel Dashboard:
+
 1. Tu proyecto → Settings → Environment Variables
 2. Agregar:
    - `NEXT_PUBLIC_GA_MEASUREMENT_ID` = `G-XXXXXXXXXX`
@@ -147,17 +150,20 @@ git push
 ### Opción A: Dominio Gratis con Vercel
 
 Tu proyecto tendrá:
+
 - `https://portfoliov2.vercel.app` (gratis)
 - Puedes cambiar el nombre en Settings
 
 ### Opción B: Comprar Dominio
 
 **Recomendados (baratos):**
+
 - Namecheap: ~$9/año
 - Cloudflare: ~$9/año
 - Porkbun: ~$8/año
 
 **Configuración:**
+
 1. Comprar dominio
 2. En Vercel: Domains → Add
 3. Ingresar tu dominio
@@ -258,11 +264,13 @@ npm run build
 ## 💰 Costos
 
 ### Gratis Forever:
+
 - Vercel: Unlimited personal projects
 - Netlify: 100GB bandwidth/month
 - GitHub: Unlimited public repos
 
 ### Si creces:
+
 - Vercel Pro: $20/month (no necesario para portfolio)
 - Dominio: $9-12/año
 - Todo lo demás: GRATIS
@@ -280,4 +288,3 @@ npm run build
 ---
 
 ¡Estás a 8 minutos de tener tu portfolio online! 🚀
-

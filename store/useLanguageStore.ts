@@ -20,15 +20,14 @@ const useLanguageStore = create<LanguageState>()(
         i18n.changeLanguage(lng)
         set({ language: lng })
         analytics.trackLanguageChange(lng)
-      }
+      },
     }),
     {
       name: 'app-language',
       storage: createJSONStorage(() => localStorage),
-      version: 1
+      version: 1,
     }
   )
 )
 
 export default useLanguageStore
-

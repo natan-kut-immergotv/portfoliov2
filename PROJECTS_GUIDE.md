@@ -7,6 +7,7 @@
 #### Paso 1: Desplegar tus Proyectos
 
 **En Vercel (Gratis):**
+
 ```bash
 # Instalar Vercel CLI
 npm i -g vercel
@@ -20,6 +21,7 @@ vercel
 ```
 
 **En Netlify (Gratis):**
+
 ```bash
 # Instalar Netlify CLI
 npm i -g netlify-cli
@@ -34,11 +36,13 @@ netlify deploy --prod
 #### Paso 2: Capturar Screenshots
 
 **Herramientas recomendadas:**
+
 - [screely.com](https://screely.com) - Mockups con fondo
 - [shots.so](https://shots.so) - Screenshots profesionales
 - [browserframe.com](https://browserframe.com) - Frame de navegador
 
 **Especificaciones:**
+
 - Tamaño: 1200x630px (formato OpenGraph)
 - Formato: PNG o JPG
 - Calidad: Alta resolución
@@ -47,12 +51,14 @@ netlify deploy --prod
 #### Paso 3: Agregar al Portfolio
 
 1. **Guardar imagen:**
+
    ```bash
    # Coloca tu imagen en:
    /public/projects/nombre-proyecto.png
    ```
 
 2. **Actualizar portfolioData.ts:**
+
    ```typescript
    {
      id: 4,
@@ -74,10 +80,12 @@ netlify deploy --prod
 ### Opción 2: Crear Mini-Proyectos Rápidos
 
 #### Proyecto Sugerido 1: Todo App Avanzada
+
 **Tiempo:** 45 minutos  
 **Stack:** React + Zustand + Tailwind + LocalStorage
 
 **Features:**
+
 - ✅ CRUD completo (Create, Read, Update, Delete)
 - ✅ Filtros (All, Active, Completed)
 - ✅ Drag & Drop para reordenar
@@ -90,10 +98,12 @@ netlify deploy --prod
 ---
 
 #### Proyecto Sugerido 2: Weather Dashboard
+
 **Tiempo:** 60 minutos  
 **Stack:** Next.js + OpenWeather API + Chart.js
 
 **Features:**
+
 - ✅ Búsqueda por ciudad
 - ✅ Geolocalización automática
 - ✅ Forecast de 5 días
@@ -106,10 +116,12 @@ netlify deploy --prod
 ---
 
 #### Proyecto Sugerido 3: Pomodoro Timer
+
 **Tiempo:** 30 minutos  
 **Stack:** React + Zustand + Notifications API
 
 **Features:**
+
 - ✅ Timer configurable (25/5/15 min)
 - ✅ Notificaciones del navegador
 - ✅ Estadísticas de sesiones
@@ -140,6 +152,7 @@ Contribuye a proyectos open source y muéstralos:
 ### Opción 4: Clonar y Mejorar Proyectos Populares
 
 **Ideas:**
+
 1. **E-commerce:** Clonar un e-commerce básico y agregar:
    - Stripe checkout
    - Wishlist
@@ -171,6 +184,7 @@ Contribuye a proyectos open source y muéstralos:
 ```
 
 **Herramientas de redimensión:**
+
 - [squoosh.app](https://squoosh.app) - Optimizar y redimensionar
 - [tinypng.com](https://tinypng.com) - Comprimir sin perder calidad
 - Photoshop/Figma/Canva - Edición profesional
@@ -201,17 +215,20 @@ Te puedo crear un script si quieres automatizar esto.
 ### Plan de Acción Inmediato:
 
 **1. Corto Plazo (Hoy/Mañana):**
+
 - Usa **imágenes placeholder mejoradas** (te las creo)
 - Actualiza los **links de GitHub** con tus repos reales
 - Pon **demos temporales** apuntando a tu portfolio mismo
 
 **2. Esta Semana:**
+
 - Crea **1 proyecto real** (Weather App es el más rápido)
 - Despliega en Vercel
 - Captura screenshot profesional
 - Actualiza el portfolio
 
 **3. Próximas 2 Semanas:**
+
 - Completa los **3 proyectos**
 - Documenta cada uno con README
 - Agrega tests básicos

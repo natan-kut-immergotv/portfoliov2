@@ -5,6 +5,7 @@
 ### 🏆 Opción 1: Vercel (RECOMENDADO)
 
 **Ventajas:**
+
 - ✅ Gratis para proyectos personales
 - ✅ Deploy automático desde GitHub
 - ✅ Optimizado para Next.js
@@ -16,12 +17,15 @@
 #### Paso a Paso:
 
 **1. Crear cuenta en Vercel**
+
 ```
 https://vercel.com/signup
 ```
+
 - Usa tu cuenta de GitHub
 
 **2. Subir código a GitHub**
+
 ```bash
 cd /Users/natankutnowski/Documents/Proyectos/Portfoliov2
 
@@ -37,6 +41,7 @@ git push -u origin main
 ```
 
 **3. Importar en Vercel**
+
 1. Ve a [vercel.com/new](https://vercel.com/new)
 2. Click en "Import Git Repository"
 3. Selecciona tu repo `portfoliov2`
@@ -44,6 +49,7 @@ git push -u origin main
 
 **4. Configurar Variables de Entorno**
 En Vercel dashboard:
+
 - Settings → Environment Variables
 - Agregar:
   ```
@@ -52,10 +58,12 @@ En Vercel dashboard:
   ```
 
 **5. Deploy**
+
 - Click "Deploy"
 - ¡Listo! Tu portfolio estará en: `https://tu-portfolio.vercel.app`
 
 **6. Dominio Personalizado (Opcional)**
+
 - Settings → Domains
 - Agregar tu dominio (ej: `natankutnowski.com`)
 - Configurar DNS según instrucciones
@@ -65,6 +73,7 @@ En Vercel dashboard:
 ### 🌐 Opción 2: Netlify
 
 **Ventajas:**
+
 - ✅ Gratis para proyectos personales
 - ✅ Deploy desde GitHub
 - ✅ SSL automático
@@ -74,6 +83,7 @@ En Vercel dashboard:
 #### Paso a Paso:
 
 **1. Crear cuenta**
+
 ```
 https://app.netlify.com/signup
 ```
@@ -81,6 +91,7 @@ https://app.netlify.com/signup
 **2. Subir a GitHub** (igual que Vercel)
 
 **3. Deploy desde Netlify**
+
 1. New site from Git
 2. Connect to GitHub
 3. Seleccionar repo
@@ -90,10 +101,12 @@ https://app.netlify.com/signup
    - Framework: Next.js
 
 **4. Variables de Entorno**
+
 - Site settings → Environment variables
 - Agregar las mismas variables
 
 **5. Deploy**
+
 - URL: `https://tu-portfolio.netlify.app`
 
 ---
@@ -101,6 +114,7 @@ https://app.netlify.com/signup
 ### 🎨 Opción 3: GitHub Pages (Solo para Static Export)
 
 **Limitaciones:**
+
 - ❌ No soporta SSR/API routes
 - ❌ Requiere configuración adicional
 - ✅ Gratis e ilimitado
@@ -112,6 +126,7 @@ https://app.netlify.com/signup
 ### ☁️ Opción 4: Railway
 
 **Ventajas:**
+
 - ✅ $5 gratis/mes
 - ✅ Soporta bases de datos
 - ✅ Deploy desde GitHub
@@ -151,6 +166,7 @@ npx tsc --noEmit
 ### 3. Actualizar URLs en el código
 
 Buscar y reemplazar en:
+
 - `app/seo.ts`: Cambiar `https://natankutnowski.com` por tu URL real
 - `app/sitemap.ts`: Cambiar `baseUrl`
 - `next-seo.config.ts`: Actualizar URLs
@@ -158,6 +174,7 @@ Buscar y reemplazar en:
 ### 4. Crear .gitignore (ya existe)
 
 Verificar que incluya:
+
 ```
 node_modules/
 .next/
@@ -207,12 +224,14 @@ vercel --prod
 ### Después del primer deploy:
 
 1. **Hacer cambios localmente**
+
    ```bash
    npm run dev
    # Editar código
    ```
 
 2. **Commit y push**
+
    ```bash
    git add .
    git commit -m "Descripción de cambios"
@@ -232,6 +251,7 @@ vercel --prod
 ### Comprar Dominio (Opcional)
 
 **Registrars recomendados:**
+
 - [Namecheap](https://namecheap.com) - $8-12/año
 - [Google Domains](https://domains.google) - $12/año
 - [Cloudflare](https://cloudflare.com) - $9/año
@@ -239,6 +259,7 @@ vercel --prod
 ### Configurar DNS
 
 **En Vercel:**
+
 1. Domains → Add domain
 2. Ingresar tu dominio
 3. Configurar DNS records:
@@ -248,6 +269,7 @@ vercel --prod
    ```
 
 **En Netlify:**
+
 1. Domain settings → Add custom domain
 2. Configurar DNS:
    ```
@@ -295,10 +317,12 @@ https://analytics.google.com
 ### 4. Monitoreo
 
 **Vercel Analytics:**
+
 - Automático en dashboard
 - Web Vitals incluidos
 
 **Google Analytics:**
+
 - Tráfico en tiempo real
 - Eventos personalizados
 
@@ -345,6 +369,7 @@ image: 'projects/nombre.svg'
 ### 1. Agregar OG Image Real
 
 Crear imagen 1200x630px en:
+
 ```
 /public/og-image.png
 ```
@@ -352,6 +377,7 @@ Crear imagen 1200x630px en:
 ### 2. Configurar Redirects
 
 En `next.config.mjs`:
+
 ```javascript
 async redirects() {
   return [
@@ -403,14 +429,15 @@ async headers() {
 ## 📞 Soporte
 
 **Vercel:**
+
 - Docs: https://vercel.com/docs
 - Discord: https://vercel.com/discord
 
 **Netlify:**
+
 - Docs: https://docs.netlify.com
 - Community: https://answers.netlify.com
 
 ---
 
 ¡Tu portfolio estará online en menos de 10 minutos! 🚀
-

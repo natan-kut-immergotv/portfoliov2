@@ -14,7 +14,9 @@ export default function ThemeSwitcher() {
       className="relative rounded-lg p-2 hover:bg-gray-100 dark:hover:bg-neutral-800 transition-colors duration-200"
       whileTap={{ scale: 0.9 }}
       aria-label="Toggle theme"
-      title={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
+      title={
+        theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'
+      }
     >
       {theme === 'dark' ? (
         <Moon className="h-5 w-5 text-gray-700 dark:text-gray-300" />
@@ -24,4 +26,3 @@ export default function ThemeSwitcher() {
     </motion.button>
   )
 }
-

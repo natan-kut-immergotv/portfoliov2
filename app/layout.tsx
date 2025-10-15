@@ -5,10 +5,11 @@ import ClientLayout from './client-layout'
 
 export const metadata: Metadata = {
   title: 'Natan Kutnowski | Frontend Developer',
-  description: 'Frontend Developer specialized in React, Next.js and TypeScript',
+  description:
+    'Frontend Developer specialized in React, Next.js and TypeScript',
   icons: {
-    icon: '/favicon.ico'
-  }
+    icon: '/favicon.ico',
+  },
 }
 
 type RootLayoutProps = {

@@ -13,9 +13,9 @@ const containerVariants = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.2
-    }
-  }
+      staggerChildren: 0.2,
+    },
+  },
 }
 
 const itemVariants = {
@@ -25,9 +25,9 @@ const itemVariants = {
     y: 0,
     transition: {
       duration: 0.6,
-      ease: 'easeOut'
-    }
-  }
+      ease: 'easeOut',
+    },
+  },
 }
 
 export default function Projects() {
@@ -143,4 +143,3 @@ export default function Projects() {
     </section>
   )
 }
-

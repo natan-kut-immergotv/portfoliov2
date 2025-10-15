@@ -2,13 +2,11 @@
 
 import { motion } from 'framer-motion'
 import { ArrowDown, Github, Linkedin } from 'lucide-react'
-import { useTranslation } from 'react-i18next'
 import { portfolioData } from '../../data/portfolioData'
 import useLanguageStore from '../../store/useLanguageStore'
 import { analytics } from '../../lib/analytics'
 
 export default function Hero() {
-  const { i18n } = useTranslation()
   const language = useLanguageStore((s) => s.language)
   const data = portfolioData[language].hero
 
@@ -22,7 +20,7 @@ export default function Hero() {
     document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
   }
 
-  const handleSocialClick = (platform: string, url: string) => {
+  const handleSocialClick = (platform: string) => {
     analytics.trackSocialClick(platform)
   }
 
@@ -39,12 +37,12 @@ export default function Hero() {
           animate={{
             x: [0, 50, 0],
             y: [0, 30, 0],
-            scale: [1, 1.1, 1]
+            scale: [1, 1.1, 1],
           }}
           transition={{
             duration: 20,
             repeat: Infinity,
-            ease: 'easeInOut'
+            ease: 'easeInOut',
           }}
         />
         <motion.div
@@ -52,26 +50,26 @@ export default function Hero() {
           animate={{
             x: [0, -50, 0],
             y: [0, 50, 0],
-            scale: [1, 1.2, 1]
+            scale: [1, 1.2, 1],
           }}
           transition={{
             duration: 25,
             repeat: Infinity,
             ease: 'easeInOut',
-            delay: 1
+            delay: 1,
           }}
         />
         <motion.div
           className="absolute bottom-20 left-1/2 h-80 w-80 -translate-x-1/2 rounded-full bg-cyan-200/20 blur-3xl dark:bg-cyan-500/10"
           animate={{
             scale: [1, 1.15, 1],
-            opacity: [0.3, 0.5, 0.3]
+            opacity: [0.3, 0.5, 0.3],
           }}
           transition={{
             duration: 18,
             repeat: Infinity,
             ease: 'easeInOut',
-            delay: 2
+            delay: 2,
           }}
         />
 
@@ -82,17 +80,17 @@ export default function Hero() {
             className="absolute h-1 w-1 rounded-full bg-indigo-400/40 dark:bg-indigo-400/20"
             style={{
               left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`
+              top: `${Math.random() * 100}%`,
             }}
             animate={{
               y: [0, -30, 0],
-              opacity: [0, 1, 0]
+              opacity: [0, 1, 0],
             }}
             transition={{
               duration: 3 + Math.random() * 4,
               repeat: Infinity,
               delay: Math.random() * 5,
-              ease: 'easeInOut'
+              ease: 'easeInOut',
             }}
           />
         ))}
@@ -170,7 +168,7 @@ export default function Hero() {
             href={portfolioData[language].contact.social.github}
             target="_blank"
             rel="noopener noreferrer"
-            onClick={() => handleSocialClick('GitHub', portfolioData[language].contact.social.github)}
+            onClick={() => handleSocialClick('GitHub')}
             className="text-neutral-600 transition-colors duration-300 hover:text-indigo-600 dark:text-neutral-400 dark:hover:text-indigo-400"
           >
             <Github className="h-6 w-6" />
@@ -179,7 +177,7 @@ export default function Hero() {
             href={portfolioData[language].contact.social.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            onClick={() => handleSocialClick('LinkedIn', portfolioData[language].contact.social.linkedin)}
+            onClick={() => handleSocialClick('LinkedIn')}
             className="text-neutral-600 transition-colors duration-300 hover:text-indigo-600 dark:text-neutral-400 dark:hover:text-indigo-400"
           >
             <Linkedin className="h-6 w-6" />
@@ -196,7 +194,7 @@ export default function Hero() {
           delay: 0.6,
           repeat: Infinity,
           repeatType: 'reverse',
-          repeatDelay: 0.5
+          repeatDelay: 0.5,
         }}
       >
         <ArrowDown className="h-6 w-6 text-neutral-400" />
@@ -204,4 +202,3 @@ export default function Hero() {
     </section>
   )
 }
-

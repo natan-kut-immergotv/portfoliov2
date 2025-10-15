@@ -38,12 +38,12 @@ export default function About() {
                   className="absolute -inset-4 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 opacity-20 blur-2xl"
                   animate={{
                     scale: [1, 1.1, 1],
-                    opacity: [0.2, 0.3, 0.2]
+                    opacity: [0.2, 0.3, 0.2],
                   }}
                   transition={{
                     duration: 4,
                     repeat: Infinity,
-                    ease: 'easeInOut'
+                    ease: 'easeInOut',
                   }}
                 />
                 <div className="relative flex h-64 w-64 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 shadow-2xl">
@@ -74,4 +74,3 @@ export default function About() {
     </section>
   )
 }
-

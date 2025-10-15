@@ -7,31 +7,37 @@ export const portfolioData = {
       description:
         'I create modern, fast and accessible web experiences with React, Next.js and TypeScript.',
       cta: 'View My Work',
-      ctaSecondary: 'Contact Me'
+      ctaSecondary: 'Contact Me',
     },
     about: {
       title: 'About Me',
       bio: [
         "I'm a passionate frontend developer with over 3 years of experience building modern web applications. I specialize in React, Next.js, and TypeScript, creating scalable and performant solutions.",
-        "I love learning new technologies and sharing knowledge with the community. When I'm not coding, you can find me reading tech blogs, contributing to open source, or enjoying a good coffee."
-      ]
+        "I love learning new technologies and sharing knowledge with the community. When I'm not coding, you can find me reading tech blogs, contributing to open source, or enjoying a good coffee.",
+      ],
     },
     skills: {
       title: 'Skills & Technologies',
       categories: [
         {
           name: 'Frontend',
-          items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion']
+          items: [
+            'React',
+            'Next.js',
+            'TypeScript',
+            'Tailwind CSS',
+            'Framer Motion',
+          ],
         },
         {
           name: 'State Management',
-          items: ['Zustand', 'Redux', 'React Query', 'Context API']
+          items: ['Zustand', 'Redux', 'React Query', 'Context API'],
         },
         {
           name: 'Tools & Others',
-          items: ['Git', 'Figma', 'Vercel', 'ESLint', 'Prettier']
-        }
-      ]
+          items: ['Git', 'Figma', 'Vercel', 'ESLint', 'Prettier'],
+        },
+      ],
     },
     projects: [
       {
@@ -45,7 +51,7 @@ export const portfolioData = {
         tags: ['Next.js', 'TypeScript', 'Stripe', 'Tailwind'],
         image: '/projects/ecommerce.svg',
         github: 'https://github.com/example/ecommerce',
-        demo: 'https://ecommerce-demo.vercel.app'
+        demo: 'https://ecommerce-demo.vercel.app',
       },
       {
         id: 2,
@@ -58,7 +64,7 @@ export const portfolioData = {
         tags: ['React', 'Zustand', 'Firebase', 'Framer Motion'],
         image: '/projects/tasks.svg',
         github: 'https://github.com/example/tasks',
-        demo: 'https://tasks-demo.vercel.app'
+        demo: 'https://tasks-demo.vercel.app',
       },
       {
         id: 3,
@@ -71,8 +77,8 @@ export const portfolioData = {
         tags: ['Next.js', 'Tailwind', 'Chart.js', 'API Integration'],
         image: '/projects/weather.svg',
         github: 'https://github.com/example/weather',
-        demo: 'https://weather-demo.vercel.app'
-      }
+        demo: 'https://weather-demo.vercel.app',
+      },
     ],
     contact: {
       title: 'Get In Touch',
@@ -83,13 +89,13 @@ export const portfolioData = {
         message: 'Message',
         submit: 'Send Message',
         success: 'Message sent successfully!',
-        error: 'Please fill all fields correctly.'
+        error: 'Please fill all fields correctly.',
       },
       social: {
         github: 'https://github.com/natankutnowski',
-        linkedin: 'https://linkedin.com/in/natankutnowski'
-      }
-    }
+        linkedin: 'https://linkedin.com/in/natankutnowski',
+      },
+    },
   },
   es: {
     hero: {
@@ -99,31 +105,37 @@ export const portfolioData = {
       description:
         'Creo experiencias web modernas, rápidas y accesibles con React, Next.js y TypeScript.',
       cta: 'Ver Mi Trabajo',
-      ctaSecondary: 'Contacto'
+      ctaSecondary: 'Contacto',
     },
     about: {
       title: 'Sobre Mí',
       bio: [
         'Soy un desarrollador frontend apasionado con más de 3 años de experiencia construyendo aplicaciones web modernas. Me especializo en React, Next.js y TypeScript, creando soluciones escalables y performantes.',
-        'Me encanta aprender nuevas tecnologías y compartir conocimiento con la comunidad. Cuando no estoy programando, puedes encontrarme leyendo blogs de tecnología, contribuyendo a código abierto o disfrutando un buen café.'
-      ]
+        'Me encanta aprender nuevas tecnologías y compartir conocimiento con la comunidad. Cuando no estoy programando, puedes encontrarme leyendo blogs de tecnología, contribuyendo a código abierto o disfrutando un buen café.',
+      ],
     },
     skills: {
       title: 'Habilidades & Tecnologías',
       categories: [
         {
           name: 'Frontend',
-          items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion']
+          items: [
+            'React',
+            'Next.js',
+            'TypeScript',
+            'Tailwind CSS',
+            'Framer Motion',
+          ],
         },
         {
           name: 'Gestión de Estado',
-          items: ['Zustand', 'Redux', 'React Query', 'Context API']
+          items: ['Zustand', 'Redux', 'React Query', 'Context API'],
         },
         {
           name: 'Herramientas & Otros',
-          items: ['Git', 'Figma', 'Vercel', 'ESLint', 'Prettier']
-        }
-      ]
+          items: ['Git', 'Figma', 'Vercel', 'ESLint', 'Prettier'],
+        },
+      ],
     },
     projects: [
       {
@@ -137,7 +149,7 @@ export const portfolioData = {
         tags: ['Next.js', 'TypeScript', 'Stripe', 'Tailwind'],
         image: '/projects/ecommerce.svg',
         github: 'https://github.com/example/ecommerce',
-        demo: 'https://ecommerce-demo.vercel.app'
+        demo: 'https://ecommerce-demo.vercel.app',
       },
       {
         id: 2,
@@ -150,7 +162,7 @@ export const portfolioData = {
         tags: ['React', 'Zustand', 'Firebase', 'Framer Motion'],
         image: '/projects/tasks.svg',
         github: 'https://github.com/example/tasks',
-        demo: 'https://tasks-demo.vercel.app'
+        demo: 'https://tasks-demo.vercel.app',
       },
       {
         id: 3,
@@ -163,8 +175,8 @@ export const portfolioData = {
         tags: ['Next.js', 'Tailwind', 'Chart.js', 'API Integration'],
         image: '/projects/weather.svg',
         github: 'https://github.com/example/weather',
-        demo: 'https://weather-demo.vercel.app'
-      }
+        demo: 'https://weather-demo.vercel.app',
+      },
     ],
     contact: {
       title: 'Contacto',
@@ -175,12 +187,12 @@ export const portfolioData = {
         message: 'Mensaje',
         submit: 'Enviar Mensaje',
         success: '¡Mensaje enviado con éxito!',
-        error: 'Por favor completa todos los campos correctamente.'
+        error: 'Por favor completa todos los campos correctamente.',
       },
       social: {
         github: 'https://github.com/natankutnowski',
-        linkedin: 'https://linkedin.com/in/natankutnowski'
-      }
-    }
-  }
+        linkedin: 'https://linkedin.com/in/natankutnowski',
+      },
+    },
+  },
 }

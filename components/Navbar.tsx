@@ -19,7 +19,7 @@ export default function Navbar() {
     { href: 'about', label: t('nav.about') },
     { href: 'skills', label: t('nav.skills') },
     { href: 'projects', label: t('nav.projects') },
-    { href: 'contact', label: t('nav.contact') }
+    { href: 'contact', label: t('nav.contact') },
   ]
 
   const toggleMenu = () => setIsOpen(!isOpen)
@@ -34,7 +34,7 @@ export default function Navbar() {
 
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth'
+        behavior: 'smooth',
       })
     }
     closeMenu()
@@ -50,7 +50,10 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="text-xl font-bold text-gray-900 dark:text-white">
+          <Link
+            href="/"
+            className="text-xl font-bold text-gray-900 dark:text-white"
+          >
             {t('brand')}
           </Link>
 
@@ -142,4 +145,3 @@ export default function Navbar() {
     </motion.nav>
   )
 }
-

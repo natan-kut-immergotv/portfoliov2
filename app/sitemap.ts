@@ -14,32 +14,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: baseUrl,
       lastModified: currentDate,
       changeFrequency: 'weekly' as const,
-      priority: 1.0
+      priority: 1.0,
     },
     {
       url: `${baseUrl}/#about`,
       lastModified: currentDate,
       changeFrequency: 'monthly' as const,
-      priority: 0.8
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/#skills`,
       lastModified: currentDate,
       changeFrequency: 'monthly' as const,
-      priority: 0.8
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/#projects`,
       lastModified: currentDate,
       changeFrequency: 'weekly' as const,
-      priority: 0.9
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/#contact`,
       lastModified: currentDate,
       changeFrequency: 'monthly' as const,
-      priority: 0.7
-    }
+      priority: 0.7,
+    },
   ]
 
   // Project pages
@@ -47,9 +47,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}/projects/${slug}`,
     lastModified: currentDate,
     changeFrequency: 'monthly' as const,
-    priority: 0.8
+    priority: 0.8,
   }))
 
   return [...mainPages, ...projectPages]
 }
-

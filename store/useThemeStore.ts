@@ -24,15 +24,14 @@ const useThemeStore = create<ThemeState>()(
       setTheme: (theme) => {
         set({ theme })
         analytics.trackThemeChange(theme)
-      }
+      },
     }),
     {
       name: 'app-theme',
       storage: createJSONStorage(() => localStorage),
-      version: 1
+      version: 1,
     }
   )
 )
 
 export default useThemeStore
-

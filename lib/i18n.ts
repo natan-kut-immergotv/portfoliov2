@@ -20,16 +20,15 @@ if (!i18n.isInitialized) {
       detection: {
         order: ['localStorage', 'navigator'],
         caches: ['localStorage'],
-        lookupLocalStorage: 'app-language'
+        lookupLocalStorage: 'app-language',
       },
       backend: {
-        loadPath: '/locales/{{lng}}/{{ns}}.json'
+        loadPath: '/locales/{{lng}}/{{ns}}.json',
       },
       react: {
-        useSuspense: false
-      }
+        useSuspense: false,
+      },
     })
 }
 
 export default i18n
-

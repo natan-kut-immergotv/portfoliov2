@@ -43,12 +43,10 @@ interface SEOMetadata {
 }
 
 export const getBaseMetadata = (language: Language = 'en'): SEOMetadata => {
-  const data = portfolioData[language as keyof typeof portfolioData]
-
   return {
     title: {
       default: 'Natan Kutnowski | Frontend Developer',
-      template: '%s | Natan Kutnowski'
+      template: '%s | Natan Kutnowski',
     },
     description:
       language === 'es'
@@ -64,7 +62,7 @@ export const getBaseMetadata = (language: Language = 'en'): SEOMetadata => {
             'TypeScript',
             'Tailwind CSS',
             'Desarrollador Web',
-            'Portfolio'
+            'Portfolio',
           ]
         : [
             'Natan Kutnowski',
@@ -74,7 +72,7 @@ export const getBaseMetadata = (language: Language = 'en'): SEOMetadata => {
             'TypeScript',
             'Tailwind CSS',
             'Web Developer',
-            'Portfolio'
+            'Portfolio',
           ],
     openGraph: {
       type: 'website',
@@ -91,9 +89,9 @@ export const getBaseMetadata = (language: Language = 'en'): SEOMetadata => {
           url: `${siteUrl}/og-image.png`,
           width: 1200,
           height: 630,
-          alt: 'Natan Kutnowski Portfolio'
-        }
-      ]
+          alt: 'Natan Kutnowski Portfolio',
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
@@ -103,9 +101,9 @@ export const getBaseMetadata = (language: Language = 'en'): SEOMetadata => {
           ? 'Desarrollador Frontend especializado en React, Next.js y TypeScript.'
           : 'Frontend Developer specialized in React, Next.js and TypeScript.',
       images: [`${siteUrl}/og-image.png`],
-      creator: '@natankutnowski'
+      creator: '@natankutnowski',
     },
-    canonical: siteUrl
+    canonical: siteUrl,
   }
 }
 
@@ -150,20 +148,20 @@ export const getProjectMetadata = (
           url: `${siteUrl}${project.image}`,
           width: 1200,
           height: 630,
-          alt: project.title
-        }
+          alt: project.title,
+        },
       ],
       publishedTime: new Date().toISOString(),
-      authors: ['Natan Kutnowski']
+      authors: ['Natan Kutnowski'],
     },
     twitter: {
       card: 'summary_large_image',
       title: project.title,
       description: project.description,
       images: [`${siteUrl}${project.image}`],
-      creator: '@natankutnowski'
+      creator: '@natankutnowski',
     },
-    keywords: [...project.tags, 'portfolio', 'web development', 'project']
+    keywords: [...project.tags, 'portfolio', 'web development', 'project'],
   }
 }
 
@@ -174,39 +172,39 @@ export const getSectionMetadata = (
   const titles = {
     about: {
       en: 'About Me',
-      es: 'Sobre Mí'
+      es: 'Sobre Mí',
     },
     skills: {
       en: 'Skills & Technologies',
-      es: 'Habilidades & Tecnologías'
+      es: 'Habilidades & Tecnologías',
     },
     projects: {
       en: 'Projects',
-      es: 'Proyectos'
+      es: 'Proyectos',
     },
     contact: {
       en: 'Contact',
-      es: 'Contacto'
-    }
+      es: 'Contacto',
+    },
   }
 
   const descriptions = {
     about: {
       en: 'Learn more about Natan Kutnowski, a passionate frontend developer with expertise in React, Next.js and TypeScript.',
-      es: 'Conoce más sobre Natan Kutnowski, un desarrollador frontend apasionado con experiencia en React, Next.js y TypeScript.'
+      es: 'Conoce más sobre Natan Kutnowski, un desarrollador frontend apasionado con experiencia en React, Next.js y TypeScript.',
     },
     skills: {
       en: 'Explore the technologies and skills I use to build modern web applications.',
-      es: 'Explora las tecnologías y habilidades que uso para construir aplicaciones web modernas.'
+      es: 'Explora las tecnologías y habilidades que uso para construir aplicaciones web modernas.',
     },
     projects: {
       en: 'Browse through my portfolio of web development projects and experiments.',
-      es: 'Navega por mi portafolio de proyectos y experimentos de desarrollo web.'
+      es: 'Navega por mi portafolio de proyectos y experimentos de desarrollo web.',
     },
     contact: {
       en: 'Get in touch with me for collaborations, projects or just to say hello.',
-      es: 'Ponte en contacto conmigo para colaboraciones, proyectos o simplemente para saludar.'
-    }
+      es: 'Ponte en contacto conmigo para colaboraciones, proyectos o simplemente para saludar.',
+    },
   }
 
   return {
@@ -225,17 +223,16 @@ export const getSectionMetadata = (
           url: `${siteUrl}/og-image.png`,
           width: 1200,
           height: 630,
-          alt: 'Natan Kutnowski Portfolio'
-        }
-      ]
+          alt: 'Natan Kutnowski Portfolio',
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title: titles[section][language],
       description: descriptions[section][language],
       images: [`${siteUrl}/og-image.png`],
-      creator: '@natankutnowski'
-    }
+      creator: '@natankutnowski',
+    },
   }
 }
-
