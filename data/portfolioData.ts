@@ -71,13 +71,13 @@ export const portfolioData = {
         slug: 'weather-dashboard',
         title: 'Weather Dashboard',
         description:
-          'Real-time weather visualization with interactive maps, forecasts, and location search. Data from OpenWeather API.',
+          'Real-time weather visualization with forecasts, geolocation, and multi-language support. Built with Next.js 14 and OpenWeather API.',
         fullDescription:
-          'An interactive weather dashboard that provides real-time weather data, detailed forecasts, and beautiful visualizations. Powered by the OpenWeather API, it features interactive maps, hourly and weekly forecasts, weather alerts, and location-based search. The dashboard uses Chart.js for data visualization and includes features like temperature trends, precipitation probability, wind patterns, and UV index tracking.',
-        tags: ['Next.js', 'Tailwind', 'Chart.js', 'API Integration'],
+          'An interactive weather dashboard that provides real-time weather data, 5-day forecasts, and beautiful visualizations. Powered by the OpenWeather API, it features geolocation support, city search, hourly temperature trends with interactive charts, and multi-language support (EN/ES). The dashboard includes dark mode, responsive design, and displays detailed weather metrics like humidity, wind speed, pressure, and cloudiness.',
+        tags: ['Next.js', 'TypeScript', 'Recharts', 'OpenWeather API'],
         image: '/projects/weather.svg',
-        github: 'https://github.com/example/weather',
-        demo: 'https://weather-demo.vercel.app',
+        github: 'https://github.com/natan-kut-immergotv/weather-app',
+        demo: 'https://weather-ggwp1if4j-natankuts-projects.vercel.app',
       },
     ],
     contact: {
@@ -169,13 +169,13 @@ export const portfolioData = {
         slug: 'weather-dashboard',
         title: 'Dashboard de Clima',
         description:
-          'Visualización de clima en tiempo real con mapas interactivos, pronósticos y búsqueda por ubicación. Datos de OpenWeather API.',
+          'Visualización de clima en tiempo real con pronósticos, geolocalización y soporte multi-idioma. Construido con Next.js 14 y OpenWeather API.',
         fullDescription:
-          'Un dashboard interactivo de clima que proporciona datos meteorológicos en tiempo real, pronósticos detallados y hermosas visualizaciones. Potenciado por OpenWeather API, incluye mapas interactivos, pronósticos horarios y semanales, alertas meteorológicas y búsqueda por ubicación. El dashboard usa Chart.js para visualización de datos e incluye tendencias de temperatura, probabilidad de precipitación, patrones de viento y seguimiento del índice UV.',
-        tags: ['Next.js', 'Tailwind', 'Chart.js', 'API Integration'],
+          'Un dashboard interactivo de clima que proporciona datos meteorológicos en tiempo real, pronósticos de 5 días y hermosas visualizaciones. Potenciado por OpenWeather API, incluye soporte de geolocalización, búsqueda de ciudades, tendencias de temperatura horaria con gráficos interactivos y soporte multi-idioma (EN/ES). El dashboard incluye modo oscuro, diseño responsive y muestra métricas detalladas como humedad, velocidad del viento, presión y nubosidad.',
+        tags: ['Next.js', 'TypeScript', 'Recharts', 'OpenWeather API'],
         image: '/projects/weather.svg',
-        github: 'https://github.com/example/weather',
-        demo: 'https://weather-demo.vercel.app',
+        github: 'https://github.com/natan-kut-immergotv/weather-app',
+        demo: 'https://weather-ggwp1if4j-natankuts-projects.vercel.app',
       },
     ],
     contact: {
