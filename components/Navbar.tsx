@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useTranslation } from 'react-i18next'
 import ThemeSwitcher from './ThemeSwitcher'
 import LanguageSwitcher from './LanguageSwitcher'
@@ -50,11 +51,27 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link
-            href="/"
-            className="text-xl font-bold text-gray-900 dark:text-white"
-          >
-            {t('brand')}
+          <Link href="/" className="flex items-center gap-3">
+            <div className="relative h-10 w-10">
+              <Image
+                src="/logo.svg"
+                alt="NK Logo"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+            <span className="hidden text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:inline-block">
+              <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                NATAN
+              </span>{' '}
+              <span className="text-gray-900 dark:text-white">KUTNOWSKI</span>
+            </span>
+            <span className="text-xl font-bold tracking-tight text-gray-900 dark:text-white sm:hidden">
+              <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                NK
+              </span>
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
