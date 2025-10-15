@@ -92,7 +92,7 @@ export const portfolioData = {
         error: 'Please fill all fields correctly.',
       },
       social: {
-        github: 'https://github.com/natankutnowski',
+        github: 'https://github.com/natan-kut-immergotv',
         linkedin: 'https://linkedin.com/in/natankutnowski',
       },
     },
@@ -190,7 +190,7 @@ export const portfolioData = {
         error: 'Por favor completa todos los campos correctamente.',
       },
       social: {
-        github: 'https://github.com/natankutnowski',
+        github: 'https://github.com/natan-kut-immergotv',
         linkedin: 'https://linkedin.com/in/natankutnowski',
       },
     },
