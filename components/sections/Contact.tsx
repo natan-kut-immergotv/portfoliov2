@@ -29,7 +29,7 @@ export default function Contact() {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
 
     const newErrors = {
@@ -41,10 +41,32 @@ export default function Contact() {
     setErrors(newErrors)
 
     if (!newErrors.name && !newErrors.email && !newErrors.message) {
-      setStatus('success')
-      setFormData({ name: '', email: '', message: '' })
-      analytics.trackFormSubmit('contact', true)
-      setTimeout(() => setStatus('idle'), 3000)
+      try {
+        const response = await fetch('https://formspree.io/f/xnnglbro', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            name: formData.name,
+            email: formData.email,
+            message: formData.message,
+          }),
+        })
+
+        if (response.ok) {
+          setStatus('success')
+          setFormData({ name: '', email: '', message: '' })
+          analytics.trackFormSubmit('contact', true)
+          setTimeout(() => setStatus('idle'), 3000)
+        } else {
+          throw new Error('Failed to send message')
+        }
+      } catch (error) {
+        setStatus('error')
+        analytics.trackFormSubmit('contact', false)
+        setTimeout(() => setStatus('idle'), 3000)
+      }
     } else {
       setStatus('error')
       analytics.trackFormSubmit('contact', false)
