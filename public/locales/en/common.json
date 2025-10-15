@@ -1,0 +1,25 @@
+{
+  "brand": "NK",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Welcome to my portfolio",
+    "cta": "Get in touch"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a passionate frontend developer focused on creating fast, beautiful and scalable web experiences.",
+    "stackTitle": "Tech Stack"
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "A selection of recent works and experiments.",
+    "filterAll": "All"
+  }
+}
+

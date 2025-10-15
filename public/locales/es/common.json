@@ -1,0 +1,25 @@
+{
+  "brand": "NK",
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Bienvenido a mi portafolio",
+    "cta": "Contacto"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Soy un desarrollador frontend apasionado por crear experiencias web rápidas, hermosas y escalables.",
+    "stackTitle": "Tecnologías"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "description": "Una selección de trabajos y experimentos recientes.",
+    "filterAll": "Todos"
+  }
+}
+

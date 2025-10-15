@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Allow: /
+
+# Disallow API routes
+Disallow: /api/
+
+# Disallow private files
+Disallow: /_next/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://natankutnowski.com/sitemap.xml
+
