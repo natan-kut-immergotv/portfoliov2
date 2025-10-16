@@ -54,7 +54,7 @@ export const portfolioData = {
         demo: 'https://ecommerce-demo.vercel.app',
       },
       {
-        id: 2,
+        id: 3,
         slug: 'weather-dashboard',
         title: 'Weather Dashboard',
         description:
@@ -67,7 +67,7 @@ export const portfolioData = {
         demo: 'https://weather-lymwdsfkj-natankuts-projects.vercel.app',
       },
       {
-        id: 3,
+        id: 4,
         slug: 'task-manager',
         title: 'TaskFlow - Task Manager',
         description:
@@ -153,7 +153,7 @@ export const portfolioData = {
         demo: 'https://ecommerce-demo.vercel.app',
       },
       {
-        id: 2,
+        id: 3,
         slug: 'weather-dashboard',
         title: 'Dashboard de Clima',
         description:
@@ -166,7 +166,7 @@ export const portfolioData = {
         demo: 'https://weather-lymwdsfkj-natankuts-projects.vercel.app',
       },
       {
-        id: 3,
+        id: 4,
         slug: 'task-manager',
         title: 'TaskFlow - Gestor de Tareas',
         description:
