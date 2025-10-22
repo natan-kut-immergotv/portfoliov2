@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { User } from 'lucide-react'
+import Image from 'next/image'
 import { portfolioData } from '../../data/portfolioData'
 import useLanguageStore from '../../store/useLanguageStore'
 
@@ -46,8 +46,15 @@ export default function About() {
                     ease: 'easeInOut',
                   }}
                 />
-                <div className="relative flex h-64 w-64 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 shadow-2xl">
-                  <User className="h-32 w-32 text-white" />
+                <div className="relative h-64 w-64 rounded-full overflow-hidden shadow-2xl">
+                  <Image
+                    src="/avatar.png"
+                    alt="Natan Kutnowski - Frontend Developer"
+                    width={256}
+                    height={256}
+                    className="object-cover w-full h-full"
+                    priority
+                  />
                 </div>
               </div>
             </motion.div>
