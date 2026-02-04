@@ -1,14 +1,15 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Code2, Database, Wrench } from 'lucide-react'
+import { Code2, Database, Wrench, Smartphone } from 'lucide-react'
 import { portfolioData } from '../../data/portfolioData'
 import useLanguageStore from '../../store/useLanguageStore'
 
 const categoryIcons = {
   0: Code2,
   1: Database,
-  2: Wrench,
+  2: Smartphone,
+  3: Wrench,
 }
 
 const containerVariants = {
@@ -78,7 +79,7 @@ export default function Skills() {
           </p>
 
           <motion.div
-            className="grid gap-6 md:grid-cols-2 lg:grid-cols-3"
+            className="grid gap-6 md:grid-cols-2"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"

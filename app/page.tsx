@@ -6,12 +6,14 @@ import Hero from '../components/sections/Hero'
 import About from '../components/sections/About'
 import Skills from '../components/sections/Skills'
 import Projects from '../components/sections/Projects'
+import ReactNativeApps from '../components/sections/ReactNativeApps'
 import Contact from '../components/sections/Contact'
 
 const HeroMemo = memo(Hero)
 const AboutMemo = memo(About)
 const SkillsMemo = memo(Skills)
 const ProjectsMemo = memo(Projects)
+const ReactNativeAppsMemo = memo(ReactNativeApps)
 const ContactMemo = memo(Contact)
 
 const sectionVariants = {
@@ -56,6 +58,15 @@ export default function HomePage() {
         variants={sectionVariants}
       >
         <ProjectsMemo />
+      </motion.div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: '-100px' }}
+        variants={sectionVariants}
+      >
+        <ReactNativeAppsMemo />
       </motion.div>
 
       <motion.div

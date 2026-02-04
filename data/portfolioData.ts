@@ -34,6 +34,16 @@ export const portfolioData = {
           items: ['Zustand', 'Redux', 'React Query', 'Context API'],
         },
         {
+          name: 'Mobile',
+          items: [
+            'React Native',
+            'Expo',
+            'TypeScript',
+            'React Navigation',
+            'AsyncStorage',
+          ],
+        },
+        {
           name: 'Tools & Others',
           items: ['Git', 'Figma', 'Vercel', 'ESLint', 'Prettier'],
         },
@@ -80,6 +90,20 @@ export const portfolioData = {
         demo: 'https://task-management-app-natankuts-projects.vercel.app',
       },
     ],
+    reactNativeApps: {
+      title: 'React Native Apps',
+      subtitle: 'Mobile applications built with React Native and Expo.',
+      items: [
+        {
+          id: 1,
+          title: 'Mobile App Demo',
+          description:
+            'Cross-platform mobile application showcasing native features, smooth animations, and responsive UI. Built with React Native and Expo for iOS and Android.',
+          videoId: 'LYkh-Adx5iM',
+          tags: ['React Native', 'Expo', 'TypeScript', 'Mobile'],
+        },
+      ],
+    },
     contact: {
       title: 'Get In Touch',
       subtitle: "Have a project in mind? Let's work together!",
@@ -133,6 +157,16 @@ export const portfolioData = {
           items: ['Zustand', 'Redux', 'React Query', 'Context API'],
         },
         {
+          name: 'Mobile',
+          items: [
+            'React Native',
+            'Expo',
+            'TypeScript',
+            'React Navigation',
+            'AsyncStorage',
+          ],
+        },
+        {
           name: 'Herramientas & Otros',
           items: ['Git', 'Figma', 'Vercel', 'ESLint', 'Prettier'],
         },
@@ -179,6 +213,20 @@ export const portfolioData = {
         demo: 'https://task-management-app-natankuts-projects.vercel.app',
       },
     ],
+    reactNativeApps: {
+      title: 'Apps React Native',
+      subtitle: 'Aplicaciones móviles construidas con React Native y Expo.',
+      items: [
+        {
+          id: 1,
+          title: 'Demo App Móvil',
+          description:
+            'Aplicación móvil multiplataforma que muestra características nativas, animaciones fluidas e interfaz responsive. Construida con React Native y Expo para iOS y Android.',
+          videoId: 'LYkh-Adx5iM',
+          tags: ['React Native', 'Expo', 'TypeScript', 'Mobile'],
+        },
+      ],
+    },
     contact: {
       title: 'Contacto',
       subtitle: '¿Tienes un proyecto en mente? ¡Trabajemos juntos!',

@@ -2,7 +2,13 @@
 
 import { useEffect, useState } from 'react'
 
-export type SectionId = 'home' | 'about' | 'skills' | 'projects' | 'contact'
+export type SectionId =
+  | 'home'
+  | 'about'
+  | 'skills'
+  | 'projects'
+  | 'react-native-apps'
+  | 'contact'
 
 export function useActiveSection() {
   const [activeSection, setActiveSection] = useState<SectionId>('home')
