@@ -96,11 +96,19 @@ export const portfolioData = {
       items: [
         {
           id: 1,
-          title: 'Mobile App Demo',
+          title: 'Pokedex',
           description:
-            'Cross-platform mobile application showcasing native features, smooth animations, and responsive UI. Built with React Native and Expo for iOS and Android.',
+            'Pokémon catalog app with list view, search, and detail screens. Consumes the PokeAPI to display Pokemon data. Built with React Native and Expo.',
           videoId: 'LYkh-Adx5iM',
-          tags: ['React Native', 'Expo', 'TypeScript', 'Mobile'],
+          tags: ['React Native', 'Expo', 'TypeScript', 'PokeAPI', 'Mobile'],
+        },
+        {
+          id: 2,
+          title: 'Billetera MP - Wallet App',
+          description:
+            'Digital wallet app with transfers between contacts, search by name or alias, amount input, and confirmation flow. Built with React Native, Expo and Zustand.',
+          videoId: 'V3EIUzx257c',
+          tags: ['React Native', 'Expo', 'TypeScript', 'Zustand', 'Mobile'],
         },
       ],
     },
@@ -219,11 +227,19 @@ export const portfolioData = {
       items: [
         {
           id: 1,
-          title: 'Demo App Móvil',
+          title: 'Pokedex',
           description:
-            'Aplicación móvil multiplataforma que muestra características nativas, animaciones fluidas e interfaz responsive. Construida con React Native y Expo para iOS y Android.',
+            'App catálogo de Pokémon con lista, búsqueda y pantallas de detalle. Consume la PokeAPI para mostrar datos de Pokemon. Construida con React Native y Expo.',
           videoId: 'LYkh-Adx5iM',
-          tags: ['React Native', 'Expo', 'TypeScript', 'Mobile'],
+          tags: ['React Native', 'Expo', 'TypeScript', 'PokeAPI', 'Mobile'],
+        },
+        {
+          id: 2,
+          title: 'Billetera MP - App de Billetera',
+          description:
+            'App de billetera digital con transferencias entre contactos, búsqueda por nombre o alias, ingreso de monto y flujo de confirmación. Construida con React Native, Expo y Zustand.',
+          videoId: 'V3EIUzx257c',
+          tags: ['React Native', 'Expo', 'TypeScript', 'Zustand', 'Mobile'],
         },
       ],
     },
