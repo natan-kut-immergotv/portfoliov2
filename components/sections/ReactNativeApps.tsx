@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import { UtensilsCrossed } from 'lucide-react'
 import { portfolioData } from '../../data/portfolioData'
 import useLanguageStore from '../../store/useLanguageStore'
 
@@ -64,14 +65,23 @@ export default function ReactNativeApps() {
                 whileHover={{ y: -8 }}
               >
                 <div className="relative aspect-video w-full overflow-hidden rounded-t-2xl bg-neutral-200 dark:bg-neutral-800">
-                  <iframe
-                    src={`https://www.youtube.com/embed/${app.videoId}`}
-                    title={app.title}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                    className="absolute inset-0 h-full w-full"
-                  />
+                  {app.isPlaceholder ? (
+                    <div className="flex h-full w-full flex-col items-center justify-center gap-3 text-neutral-500 dark:text-neutral-400">
+                      <UtensilsCrossed className="h-16 w-16" strokeWidth={1.5} />
+                      <span className="text-sm font-medium">
+                        {language === 'es' ? 'Próximamente' : 'Coming soon'}
+                      </span>
+                    </div>
+                  ) : (
+                    <iframe
+                      src={`https://www.youtube.com/embed/${app.videoId}`}
+                      title={app.title}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      allowFullScreen
+                      className="absolute inset-0 h-full w-full"
+                    />
+                  )}
                 </div>
 
                 <div className="p-6">
