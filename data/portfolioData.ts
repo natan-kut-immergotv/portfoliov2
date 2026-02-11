@@ -44,6 +44,14 @@ export const portfolioData = {
           ],
         },
         {
+          name: 'Testing',
+          items: ['Jest', 'React Testing Library', 'Vitest'],
+        },
+        {
+          name: 'APIs & Integration',
+          items: ['REST', 'Fetch', 'OpenWeather API', 'Stripe'],
+        },
+        {
           name: 'Tools & Others',
           items: ['Git', 'Figma', 'Vercel', 'ESLint', 'Prettier'],
         },
@@ -181,6 +189,14 @@ export const portfolioData = {
             'React Navigation',
             'AsyncStorage',
           ],
+        },
+        {
+          name: 'Testing',
+          items: ['Jest', 'React Testing Library', 'Vitest'],
+        },
+        {
+          name: 'APIs e Integración',
+          items: ['REST', 'Fetch', 'OpenWeather API', 'Stripe'],
         },
         {
           name: 'Herramientas & Otros',
