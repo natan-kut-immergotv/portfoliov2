@@ -103,12 +103,13 @@ export const portfolioData = {
       subtitle: 'Mobile applications built with React Native and Expo.',
       items: [
         {
-          id: 1,
-          title: 'Pokedex',
+          id: 3,
+          title: 'Food Delivery App',
           description:
-            'Pokémon catalog app with list view, search, and detail screens. Consumes the PokeAPI to display Pokemon data. Built with React Native and Expo.',
-          videoId: 'LYkh-Adx5iM',
-          tags: ['React Native', 'Expo', 'TypeScript', 'PokeAPI', 'Mobile'],
+            'Food delivery app (Rappi/Uber Eats style) with restaurant catalog, cart, checkout, order confirmation, and order history. Built with React Native, Expo, Zustand and AsyncStorage.',
+          videoId: 'q4-PsdZhr4w',
+          date: 'December 2025',
+          tags: ['React Native', 'Expo', 'TypeScript', 'Zustand', 'Mobile'],
         },
         {
           id: 2,
@@ -116,15 +117,17 @@ export const portfolioData = {
           description:
             'Digital wallet app with transfers between contacts, search by name or alias, amount input, and confirmation flow. Built with React Native, Expo and Zustand.',
           videoId: 'V3EIUzx257c',
+          date: 'October 2025',
           tags: ['React Native', 'Expo', 'TypeScript', 'Zustand', 'Mobile'],
         },
         {
-          id: 3,
-          title: 'Food Delivery App',
+          id: 1,
+          title: 'Pokedex',
           description:
-            'Food delivery app (Rappi/Uber Eats style) with restaurant catalog, cart, checkout, order confirmation, and order history. Built with React Native, Expo, Zustand and AsyncStorage.',
-          videoId: 'q4-PsdZhr4w',
-          tags: ['React Native', 'Expo', 'TypeScript', 'Zustand', 'Mobile'],
+            'Pokémon catalog app with list view, search, and detail screens. Consumes the PokeAPI to display Pokemon data. Built with React Native and Expo.',
+          videoId: 'LYkh-Adx5iM',
+          date: 'May 2025',
+          tags: ['React Native', 'Expo', 'TypeScript', 'PokeAPI', 'Mobile'],
         },
       ],
     },
@@ -250,12 +253,13 @@ export const portfolioData = {
       subtitle: 'Aplicaciones móviles construidas con React Native y Expo.',
       items: [
         {
-          id: 1,
-          title: 'Pokedex',
+          id: 3,
+          title: 'App de Delivery de Comida',
           description:
-            'App catálogo de Pokémon con lista, búsqueda y pantallas de detalle. Consume la PokeAPI para mostrar datos de Pokemon. Construida con React Native y Expo.',
-          videoId: 'LYkh-Adx5iM',
-          tags: ['React Native', 'Expo', 'TypeScript', 'PokeAPI', 'Mobile'],
+            'App de delivery (estilo Rappi/Uber Eats) con catálogo de restaurantes, carrito, checkout, confirmación y historial de pedidos. Construida con React Native, Expo, Zustand y AsyncStorage.',
+          videoId: 'q4-PsdZhr4w',
+          date: 'Diciembre 2025',
+          tags: ['React Native', 'Expo', 'TypeScript', 'Zustand', 'Mobile'],
         },
         {
           id: 2,
@@ -263,15 +267,17 @@ export const portfolioData = {
           description:
             'App de billetera digital con transferencias entre contactos, búsqueda por nombre o alias, ingreso de monto y flujo de confirmación. Construida con React Native, Expo y Zustand.',
           videoId: 'V3EIUzx257c',
+          date: 'Octubre 2025',
           tags: ['React Native', 'Expo', 'TypeScript', 'Zustand', 'Mobile'],
         },
         {
-          id: 3,
-          title: 'App de Delivery de Comida',
+          id: 1,
+          title: 'Pokedex',
           description:
-            'App de delivery (estilo Rappi/Uber Eats) con catálogo de restaurantes, carrito, checkout, confirmación y historial de pedidos. Construida con React Native, Expo, Zustand y AsyncStorage.',
-          videoId: 'q4-PsdZhr4w',
-          tags: ['React Native', 'Expo', 'TypeScript', 'Zustand', 'Mobile'],
+            'App catálogo de Pokémon con lista, búsqueda y pantallas de detalle. Consume la PokeAPI para mostrar datos de Pokemon. Construida con React Native y Expo.',
+          videoId: 'LYkh-Adx5iM',
+          date: 'Mayo 2025',
+          tags: ['React Native', 'Expo', 'TypeScript', 'PokeAPI', 'Mobile'],
         },
       ],
     },

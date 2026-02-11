@@ -85,9 +85,16 @@ export default function ReactNativeApps() {
                 </div>
 
                 <div className="p-6">
-                  <h3 className="mb-3 text-xl font-bold text-neutral-900 dark:text-white">
-                    {app.title}
-                  </h3>
+                  <div className="mb-3 flex items-center justify-between gap-2">
+                    <h3 className="text-xl font-bold text-neutral-900 dark:text-white">
+                      {app.title}
+                    </h3>
+                    {'date' in app && app.date && (
+                      <span className="shrink-0 text-xs font-medium text-neutral-500 dark:text-neutral-400">
+                        {app.date}
+                      </span>
+                    )}
+                  </div>
 
                   <p className="mb-4 text-sm leading-relaxed text-neutral-600 dark:text-neutral-300">
                     {app.description}
