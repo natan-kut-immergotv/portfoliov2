@@ -113,10 +113,10 @@ export const portfolioData = {
         {
           id: 3,
           title: 'Food Delivery App',
-          description: 'Coming soon — Food delivery app with restaurant catalog, cart, and order tracking.',
-          isPlaceholder: true,
-          videoId: '',
-          tags: ['React Native', 'Expo', 'TypeScript', 'Coming soon'],
+          description:
+            'Food delivery app (Rappi/Uber Eats style) with restaurant catalog, cart, checkout, order confirmation, and order history. Built with React Native, Expo, Zustand and AsyncStorage.',
+          videoId: 'q4-PsdZhr4w',
+          tags: ['React Native', 'Expo', 'TypeScript', 'Zustand', 'Mobile'],
         },
       ],
     },
@@ -252,10 +252,10 @@ export const portfolioData = {
         {
           id: 3,
           title: 'App de Delivery de Comida',
-          description: 'Próximamente — App de delivery con catálogo de restaurantes, carrito y seguimiento de pedidos.',
-          isPlaceholder: true,
-          videoId: '',
-          tags: ['React Native', 'Expo', 'TypeScript', 'Próximamente'],
+          description:
+            'App de delivery (estilo Rappi/Uber Eats) con catálogo de restaurantes, carrito, checkout, confirmación y historial de pedidos. Construida con React Native, Expo, Zustand y AsyncStorage.',
+          videoId: 'q4-PsdZhr4w',
+          tags: ['React Native', 'Expo', 'TypeScript', 'Zustand', 'Mobile'],
         },
       ],
     },
