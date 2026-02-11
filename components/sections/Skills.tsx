@@ -1,15 +1,17 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Code2, Database, Wrench, Smartphone } from 'lucide-react'
+import { Code2, Database, Wrench, Smartphone, FlaskConical, Plug } from 'lucide-react'
 import { portfolioData } from '../../data/portfolioData'
 import useLanguageStore from '../../store/useLanguageStore'
 
-const categoryIcons = {
+const categoryIcons: Record<number, typeof Code2> = {
   0: Code2,
   1: Database,
   2: Smartphone,
-  3: Wrench,
+  3: FlaskConical,
+  4: Plug,
+  5: Wrench,
 }
 
 const containerVariants = {
@@ -86,8 +88,7 @@ export default function Skills() {
             viewport={{ once: true, margin: '-50px' }}
           >
             {data.categories.map((category, categoryIndex) => {
-              const Icon =
-                categoryIcons[categoryIndex as keyof typeof categoryIcons]
+              const Icon = categoryIcons[categoryIndex] ?? Code2
               return (
                 <motion.div
                   key={category.name}
