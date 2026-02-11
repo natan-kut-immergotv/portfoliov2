@@ -65,7 +65,7 @@ export default function ReactNativeApps() {
                 whileHover={{ y: -8 }}
               >
                 <div className="relative aspect-video w-full overflow-hidden rounded-t-2xl bg-neutral-200 dark:bg-neutral-800">
-                  {app.isPlaceholder ? (
+                  {!app.videoId ? (
                     <div className="flex h-full w-full flex-col items-center justify-center gap-3 text-neutral-500 dark:text-neutral-400">
                       <UtensilsCrossed className="h-16 w-16" strokeWidth={1.5} />
                       <span className="text-sm font-medium">
