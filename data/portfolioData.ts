@@ -12,8 +12,8 @@ export const portfolioData = {
     about: {
       title: 'About Me',
       bio: [
-        "I'm a passionate frontend developer with over 3 years of experience building modern web applications. I specialize in React, Next.js, and TypeScript, creating scalable and performant solutions.",
-        "I love learning new technologies and sharing knowledge with the community. When I'm not coding, you can find me reading tech blogs, contributing to open source, or enjoying a good coffee.",
+        "I've been building stuff on the web for over 3 years—dashboards, e‑commerce, task managers, and lately mobile apps with React Native. React, Next.js and TypeScript are my go-to; I care about things loading fast and not breaking on different screens.",
+        "I like picking up new tools and actually shipping with them. Off the keyboard I read a lot of tech stuff and tinker with side projects; the rest of the time I'm probably recharging with a coffee or a walk.",
       ],
     },
     skills: {
@@ -151,8 +151,8 @@ export const portfolioData = {
     about: {
       title: 'Sobre Mí',
       bio: [
-        'Soy un desarrollador frontend apasionado con más de 3 años de experiencia construyendo aplicaciones web modernas. Me especializo en React, Next.js y TypeScript, creando soluciones escalables y performantes.',
-        'Me encanta aprender nuevas tecnologías y compartir conocimiento con la comunidad. Cuando no estoy programando, puedes encontrarme leyendo blogs de tecnología, contribuyendo a código abierto o disfrutando un buen café.',
+        'Hace más de 3 años que armo cosas en la web: dashboards, e‑commerce, gestores de tareas y últimamente apps móviles con React Native. Me muevo sobre todo con React, Next.js y TypeScript; me importa que cargue rápido y que no se rompa en ningún dispositivo.',
+        'Me gusta sumar herramientas nuevas y llevarlas hasta algo que se use. Fuera del teclado leo bastante de tech y meto mano en proyectos propios; el resto del tiempo seguramente estoy tomando un café o dando una vuelta.',
       ],
     },
     skills: {
