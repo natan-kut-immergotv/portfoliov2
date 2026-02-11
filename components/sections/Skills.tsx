@@ -81,7 +81,7 @@ export default function Skills() {
           </p>
 
           <motion.div
-            className="grid gap-6 md:grid-cols-2"
+            className="grid gap-6 md:grid-cols-2 lg:grid-cols-3"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
