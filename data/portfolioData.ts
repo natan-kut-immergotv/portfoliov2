@@ -5,7 +5,7 @@ export const portfolioData = {
       name: 'Natan Kutnowski',
       role: 'Frontend Developer',
       description:
-        'I create modern, fast and accessible web experiences with React, Next.js and TypeScript.',
+        'I create modern, fast and accessible web experiences with React, Next.js and TypeScript, and cross-platform native mobile apps with React Native, Expo and Zustand.',
       cta: 'View My Work',
       ctaSecondary: 'Contact Me',
     },
@@ -144,7 +144,7 @@ export const portfolioData = {
       name: 'Natan Kutnowski',
       role: 'Desarrollador Frontend',
       description:
-        'Creo experiencias web modernas, rápidas y accesibles con React, Next.js y TypeScript.',
+        'Creo experiencias web modernas, rápidas y accesibles con React, Next.js y TypeScript, y aplicaciones móviles nativas multiplataforma con React Native, Expo y Zustand.',
       cta: 'Ver Mi Trabajo',
       ctaSecondary: 'Contacto',
     },
